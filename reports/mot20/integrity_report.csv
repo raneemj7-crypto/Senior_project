@@ -1,9 +1,0 @@
-dataset,split,sequence,status,declared_frames,actual_frames,ground_truth_exists,total_gt_rows,missing_frames,extra_frames,unexpected_image_names,corrupt_images,dimension_mismatches,annotation_references_missing_files,frames_without_any_annotation,frames_without_target_pedestrians,wrong_field_count,non_numeric_rows,invalid_frame_references,invalid_track_ids,invalid_box_sizes,invalid_visibility_values,invalid_mark_values,invalid_class_values,duplicate_frame_id_pairs,boxes_crossing_image_boundary,boxes_completely_outside_image,exact_duplicate_images
-MOT20,train,MOT20-01,valid,429,429,True,26647,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-MOT20,train,MOT20-02,valid,2782,2782,True,202215,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-MOT20,train,MOT20-03,valid,2405,2405,True,356728,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-MOT20,train,MOT20-05,valid,3315,3315,True,751330,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-MOT20,test,MOT20-04,valid,2080,2080,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-MOT20,test,MOT20-06,valid,1008,1008,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-MOT20,test,MOT20-07,valid,585,585,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-MOT20,test,MOT20-08,valid,806,806,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

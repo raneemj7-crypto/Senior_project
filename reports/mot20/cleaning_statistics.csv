@@ -1,2 +1,0 @@
-dataset,sequence_count,total_samples,kept_samples,fixed_samples,excluded_samples,raw_annotation_rows,clean_annotation_rows,removed_annotation_rows,clipped_boxes,corrupt_images,exact_duplicate_images
-MOT20,8,13410,4479,8931,0,1336920,1134614,202306,0,0,0
