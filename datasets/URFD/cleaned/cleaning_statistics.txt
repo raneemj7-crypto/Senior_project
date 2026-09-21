@@ -1,0 +1,22 @@
+URFD CLEANING STATISTICS
+========================
+
+Total RGB frames: 11157
+Valid RGB frames: 11157
+Invalid RGB frames: 0
+
+Sequence/camera groups checked: 87
+Groups with missing frames: 0
+Complete groups: 87
+
+Cam0 frames: 8161
+Cam1 frames: 2996
+
+Cam0 frames with timestamps: 8161
+Cam0 frames without timestamps: 0
+
+Cam0 frames with posture labels: 7948
+Cam0 frames without posture labels: 213
+
+Original label rows excluded because RGB was not selected: 3596
+Final cleaned manifest rows: 11157
