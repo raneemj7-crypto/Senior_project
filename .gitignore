@@ -16,3 +16,4 @@ venv/
 # macOS
 .DS_Store
 
+datasets/KAIST/preview_visualization.mp4

@@ -1,0 +1,6 @@
+KAIST THERMAL CLEANING
+----------------------
+Original thermal frames: 3200
+Frames kept with people: 1267
+Empty frames removed: 1933
+Other excluded frames: 0
