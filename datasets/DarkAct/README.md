@@ -4,7 +4,7 @@ RGB–Thermal action recognition dataset ([source](https://github.com/darkact-cr
 1. Training data for the RGB–thermal fusion backbone (alongside KAIST and LLVIP)
 2. Hard-negative examples for the temporal collapse classifier (alongside URFD and UP-Fall)
 
-**DarkAct has no "fall" or "collapse" class.** It contains 27 general action classes (walking, sitting, squatting, etc.) and is *not* a source of positive fall examples — only URFD and UP-Fall provide those. Verified directly against the dataset's own annotation files, not assumed from the paper.
+**DarkAct has no "fall" or "collapse" class.** It contains 27 general action classes (walking, sitting, squatting, etc.) and is *not* a source of positive fall examples. Verified directly against the dataset's own annotation files, not assumed from the paper.
 
 ## Dataset stats (verified, not estimated)
 
