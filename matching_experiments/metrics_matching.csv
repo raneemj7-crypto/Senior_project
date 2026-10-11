@@ -1,0 +1,4 @@
+configuration,idf1,idp,idr,num_switches,num_fragmentations,mota,precision,recall,num_misses,num_false_positives,evaluation_note,num_frames,iou_threshold
+ByteTrack_match_0.7,0.5808269119231088,0.6436310216073943,0.5291897332662305,287,545,0.6320080523402114,0.8931260329313827,0.7343231001509813,5279,1746,"Diagnostic evaluation, not official MOTChallenge scores: MOT20 ignored-region handling is not fully implemented.",429,0.5
+ByteTrack_match_0.8,0.6066281247455418,0.6583986331231957,0.5624056366381479,215,487,0.6414695520885758,0.8818122901078183,0.7532460996477102,4903,2006,"Diagnostic evaluation, not official MOTChallenge scores: MOT20 ignored-region handling is not fully implemented.",429,0.5
+ByteTrack_match_0.9,0.5870136839280923,0.6286781609195402,0.5505284348263714,200,515,0.6390538500251636,0.870632183908046,0.762405636638148,4721,2251,"Diagnostic evaluation, not official MOTChallenge scores: MOT20 ignored-region handling is not fully implemented.",429,0.5

@@ -1,0 +1,2 @@
+sequence,num_frames,frame_rate,evaluation_note,evaluation_status,idf1,idp,idr,mota,num_switches,num_fragmentations,precision,recall,num_misses,num_false_positives
+MOT20-05,3315,25,"Diagnostic evaluation, not official MOTChallenge scores: MOT20 ignored-region handling is not fully implemented.",evaluated,0.5566910698402474,0.6041848536768248,0.5161198990011511,0.6150161523894397,3828.0,13939.0,0.863444381255275,0.7375901996460089,169607.0,75397.0

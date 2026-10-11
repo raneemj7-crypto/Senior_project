@@ -1,0 +1,44 @@
+{
+  "weights": "/Users/raneemjehad/Desktop/SeniorProject_AI/Senior_project/weights/crowdhuman_yolov5m.pt",
+  "image_size": 640,
+  "confidence": 0.25,
+  "nms_iou": 0.45,
+  "person_class": 0,
+  "device": "cpu",
+  "tracker": {
+    "track_activation_threshold": 0.25,
+    "lost_track_buffer": 30,
+    "minimum_matching_threshold": 0.8,
+    "minimum_consecutive_frames": 1
+  },
+  "evaluation_iou": 0.5,
+  "ground_truth_filter": "mark == 1 and class_id == 1",
+  "evaluation_note": "Diagnostic evaluation, not official MOTChallenge scores: MOT20 ignored-region handling is not fully implemented.",
+  "python": "3.10.22 (main, Oct  1 2026, 00:48:01) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "versions": {
+    "torch": "2.14.1",
+    "supervision": "0.30.9",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "motmetrics": "1.4.0",
+    "cv2": "4.11.0"
+  },
+  "sequences": [
+    {
+      "name": "MOT20-03",
+      "frame_rate": 25,
+      "num_frames": 2405,
+      "source": "/Users/raneemjehad/Desktop/senior-project-storage/raw/mot20/train/MOT20-03/img1",
+      "ground_truth": "/Users/raneemjehad/Desktop/senior-project-storage/raw/mot20/train/MOT20-03/gt/gt.txt",
+      "ground_truth_present": true
+    },
+    {
+      "name": "MOT20-05",
+      "frame_rate": 25,
+      "num_frames": 3315,
+      "source": "/Users/raneemjehad/Desktop/senior-project-storage/raw/mot20/train/MOT20-05/img1",
+      "ground_truth": "/Users/raneemjehad/Desktop/senior-project-storage/raw/mot20/train/MOT20-05/gt/gt.txt",
+      "ground_truth_present": true
+    }
+  ]
+}

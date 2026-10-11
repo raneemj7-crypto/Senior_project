@@ -1,0 +1,24 @@
+{
+  "purpose": "Diagnostic head assistance; not official MOTChallenge evaluation",
+  "body_evaluation": "Use body_tracks.csv only. Never convert head_only rows to body boxes.",
+  "identity_caveat": "All head associations are heuristic, not verified identities.",
+  "source": "/Users/raneemjehad/Desktop/senior-project-storage/raw/mot20/train/MOT20-01/img1",
+  "weights": "/Users/raneemjehad/Desktop/SeniorProject_AI/Senior_project/weights/crowdhuman_yolov5m.pt",
+  "frames": 429,
+  "tracker": {
+    "track_activation_threshold": 0.25,
+    "lost_track_buffer": 30,
+    "minimum_matching_threshold": 0.8,
+    "frame_rate": 25,
+    "minimum_consecutive_frames": 1
+  },
+  "confidence": 0.25,
+  "nms_iou": 0.45,
+  "min_head_confidence": 0.4,
+  "min_score": 0.6,
+  "ambiguity_margin": 0.15,
+  "confirm_body_pairs": 3,
+  "max_head_only_frames": 5,
+  "supervision_version": "0.30.9",
+  "torch_version": "2.14.1"
+}

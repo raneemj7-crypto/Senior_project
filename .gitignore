@@ -250,3 +250,20 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
+
+# Model 1 experiments: keep settings eligible; exclude generated binary artifacts.
+!*.json
+*.pth
+*.MP4
+*.AVI
+
+# Model 1 checkpoints and generated files
+*.pt
+*.mp4
+*.avi
+*.mov
+*.MOV
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
