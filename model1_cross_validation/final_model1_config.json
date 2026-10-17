@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "configuration_name": "buffer60",
+  "frozen": true,
+  "detector": {
+    "name": "YOLOv5m CrowdHuman",
+    "weights": "weights/crowdhuman_yolov5m.pt",
+    "checkpoint_sha256": "2e220dee5fe94145c20eab2679bc94f6987e4a736e71fbbb703b111c7d3dfcee",
+    "image_size": 640,
+    "confidence_threshold": 0.25,
+    "nms_iou_threshold": 0.45,
+    "person_class": 0
+  },
+  "tracker": {
+    "name": "Supervision ByteTrack",
+    "track_activation_threshold": 0.25,
+    "lost_track_buffer": 60,
+    "minimum_matching_threshold": 0.8,
+    "minimum_consecutive_frames": 1,
+    "frame_rate": {
+      "source": "seqinfo.ini",
+      "section": "Sequence",
+      "key": "frameRate",
+      "policy": "Read each sequence actual FPS; no fixed fallback"
+    }
+  },
+  "coordinate_convention": "as-stored",
+  "coordinate_policy": "Preserve stored coordinates without origin offset; bounding-box width=x2-x1 and height=y2-y1.",
+  "selection_provenance": {
+    "cross_validation_run_id": "cv_xv920xpl",
+    "run_directory": "model1_cross_validation/runs/cv_xv920xpl",
+    "method": "retrospective diagnostic leave-one-MOT20-sequence-out cross-validation",
+    "selection_score": "macro development IDF1; exact ties favor baseline then buffer60 then match07",
+    "selected_in_all_four_folds": true,
+    "sequences": [
+      "MOT20-01",
+      "MOT20-02",
+      "MOT20-03",
+      "MOT20-05"
+    ],
+    "checkpoint_hash_source": "plan.json: cache_signatures.*.weights_sha256",
+    "evaluation_status": "Diagnostic motmetrics evaluation with TrackEval-derived MOT20 preprocessing; not official benchmark scoring.",
+    "limitations": "These four sequences were exposed during prior exploratory experiments; this is not a pristine independent test or verified scene-disjoint evaluation."
+  }
+}
