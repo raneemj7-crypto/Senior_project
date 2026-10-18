@@ -1,0 +1,6 @@
+torch               # the version written in models/stgcnpp_fall_v1_laptop.json (torch_version) or newer
+ultralytics==8.4.175
+opencv-python
+numpy
+lap>=0.5.12
+openvino            # optional: ~3x faster pose model on a CPU

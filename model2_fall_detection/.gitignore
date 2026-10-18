@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# downloaded / generated automatically
+yolov8*.pt
+yolo11*.pt
+*_openvino_model/
+themam_bytetrack.yaml
+
+# outputs of the demo and the example
+fall_log.csv
+fall_events.jsonl
+
+# videos (personal recordings must not be uploaded)
+*.mp4
+*.avi
+*.mov
+*.mkv

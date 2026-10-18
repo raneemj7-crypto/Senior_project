@@ -1,0 +1,11 @@
+{
+  "threshold": 0.7,
+  "clip_frames": 30,
+  "clip_fps": 15,
+  "joint_ok": 0.3,
+  "max_missing_frac": 0.3,
+  "pose_model": "yolov8n-pose.pt",
+  "detector_conf": 0.1,
+  "trained_from": "stgcnpp_fall_binary_v1.pth",
+  "torch_version": "2.11.0+cu130"
+}
