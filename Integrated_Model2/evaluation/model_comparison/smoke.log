@@ -1,0 +1,321 @@
+/Users/raneemjehad/Desktop/Senior_Project_Work/Integrated_Model2/.venv/lib/python3.14/site-packages/torch/jit/_serialization.py:170: FutureWarning: `torch.jit.load` is not supported in Python 3.14+ and may break. Please switch to `torch.export`.
+  warnings.warn(
+[1/2] fall-05-cam0-rgb (151 frames)
+  souad_integrated: ok fall maxP=0.9957 error=None
+  souad_shared_clips: ok fall maxP=0.9983805418014526 error=None
+  raneem_stgcn_visibility: ok fall maxP=0.9999361038208008 error=None
+  raneem_stgcn_fullbody: ok fall maxP=0.9999998807907104 error=None
+  raneem_lstm: ok fall maxP=0.8827406167984009 error=None
+[2/2] adl-02-cam0-rgb (180 frames)
+  souad_integrated: ok non_fall maxP=0.003 error=None
+  souad_shared_clips: ok non_fall maxP=0.0019237410742789507 error=None
+  raneem_stgcn_visibility: ok non_fall maxP=0.4258514642715454 error=None
+  raneem_stgcn_fullbody: ok non_fall maxP=0.2383122593164444 error=None
+  raneem_lstm: ok fall maxP=0.6036508679389954 error=None
+{
+  "souad_integrated": {
+    "overall": {
+      "TP": 1,
+      "FP": 0,
+      "TN": 1,
+      "FN": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "specificity": 1.0,
+      "false_positive_rate": 0.0,
+      "false_alarm_sequences": 0,
+      "false_positive_windows": 0,
+      "operational_false_events": 0,
+      "evaluated": 2,
+      "abstained": 0,
+      "errors": 0,
+      "unavailable": 0,
+      "coverage": 1.0
+    },
+    "by_camera": {
+      "cam0": {
+        "TP": 1,
+        "FP": 0,
+        "TN": 1,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "specificity": 1.0,
+        "false_positive_rate": 0.0,
+        "false_alarm_sequences": 0,
+        "false_positive_windows": 0,
+        "operational_false_events": 0,
+        "evaluated": 2,
+        "abstained": 0,
+        "errors": 0,
+        "unavailable": 0,
+        "coverage": 1.0
+      },
+      "cam1": {
+        "TP": 0,
+        "FP": 0,
+        "TN": 0,
+        "FN": 0,
+        "precision": null,
+        "recall": null,
+        "f1": null,
+        "specificity": null,
+        "false_positive_rate": null,
+        "false_alarm_sequences": 0,
+        "false_positive_windows": 0,
+        "operational_false_events": 0,
+        "evaluated": 0,
+        "abstained": 0,
+        "errors": 0,
+        "unavailable": 0,
+        "coverage": null
+      }
+    }
+  },
+  "souad_shared_clips": {
+    "overall": {
+      "TP": 1,
+      "FP": 0,
+      "TN": 1,
+      "FN": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "specificity": 1.0,
+      "false_positive_rate": 0.0,
+      "false_alarm_sequences": 0,
+      "false_positive_windows": 0,
+      "operational_false_events": 0,
+      "evaluated": 2,
+      "abstained": 0,
+      "errors": 0,
+      "unavailable": 0,
+      "coverage": 1.0
+    },
+    "by_camera": {
+      "cam0": {
+        "TP": 1,
+        "FP": 0,
+        "TN": 1,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "specificity": 1.0,
+        "false_positive_rate": 0.0,
+        "false_alarm_sequences": 0,
+        "false_positive_windows": 0,
+        "operational_false_events": 0,
+        "evaluated": 2,
+        "abstained": 0,
+        "errors": 0,
+        "unavailable": 0,
+        "coverage": 1.0
+      },
+      "cam1": {
+        "TP": 0,
+        "FP": 0,
+        "TN": 0,
+        "FN": 0,
+        "precision": null,
+        "recall": null,
+        "f1": null,
+        "specificity": null,
+        "false_positive_rate": null,
+        "false_alarm_sequences": 0,
+        "false_positive_windows": 0,
+        "operational_false_events": 0,
+        "evaluated": 0,
+        "abstained": 0,
+        "errors": 0,
+        "unavailable": 0,
+        "coverage": null
+      }
+    }
+  },
+  "raneem_stgcn_visibility": {
+    "overall": {
+      "TP": 1,
+      "FP": 0,
+      "TN": 1,
+      "FN": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "specificity": 1.0,
+      "false_positive_rate": 0.0,
+      "false_alarm_sequences": 0,
+      "false_positive_windows": 0,
+      "operational_false_events": 0,
+      "evaluated": 2,
+      "abstained": 0,
+      "errors": 0,
+      "unavailable": 0,
+      "coverage": 1.0
+    },
+    "by_camera": {
+      "cam0": {
+        "TP": 1,
+        "FP": 0,
+        "TN": 1,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "specificity": 1.0,
+        "false_positive_rate": 0.0,
+        "false_alarm_sequences": 0,
+        "false_positive_windows": 0,
+        "operational_false_events": 0,
+        "evaluated": 2,
+        "abstained": 0,
+        "errors": 0,
+        "unavailable": 0,
+        "coverage": 1.0
+      },
+      "cam1": {
+        "TP": 0,
+        "FP": 0,
+        "TN": 0,
+        "FN": 0,
+        "precision": null,
+        "recall": null,
+        "f1": null,
+        "specificity": null,
+        "false_positive_rate": null,
+        "false_alarm_sequences": 0,
+        "false_positive_windows": 0,
+        "operational_false_events": 0,
+        "evaluated": 0,
+        "abstained": 0,
+        "errors": 0,
+        "unavailable": 0,
+        "coverage": null
+      }
+    }
+  },
+  "raneem_stgcn_fullbody": {
+    "overall": {
+      "TP": 1,
+      "FP": 0,
+      "TN": 1,
+      "FN": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "specificity": 1.0,
+      "false_positive_rate": 0.0,
+      "false_alarm_sequences": 0,
+      "false_positive_windows": 0,
+      "operational_false_events": 0,
+      "evaluated": 2,
+      "abstained": 0,
+      "errors": 0,
+      "unavailable": 0,
+      "coverage": 1.0
+    },
+    "by_camera": {
+      "cam0": {
+        "TP": 1,
+        "FP": 0,
+        "TN": 1,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "specificity": 1.0,
+        "false_positive_rate": 0.0,
+        "false_alarm_sequences": 0,
+        "false_positive_windows": 0,
+        "operational_false_events": 0,
+        "evaluated": 2,
+        "abstained": 0,
+        "errors": 0,
+        "unavailable": 0,
+        "coverage": 1.0
+      },
+      "cam1": {
+        "TP": 0,
+        "FP": 0,
+        "TN": 0,
+        "FN": 0,
+        "precision": null,
+        "recall": null,
+        "f1": null,
+        "specificity": null,
+        "false_positive_rate": null,
+        "false_alarm_sequences": 0,
+        "false_positive_windows": 0,
+        "operational_false_events": 0,
+        "evaluated": 0,
+        "abstained": 0,
+        "errors": 0,
+        "unavailable": 0,
+        "coverage": null
+      }
+    }
+  },
+  "raneem_lstm": {
+    "overall": {
+      "TP": 1,
+      "FP": 1,
+      "TN": 0,
+      "FN": 0,
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "specificity": 0.0,
+      "false_positive_rate": 1.0,
+      "false_alarm_sequences": 1,
+      "false_positive_windows": 2,
+      "operational_false_events": 0,
+      "evaluated": 2,
+      "abstained": 0,
+      "errors": 0,
+      "unavailable": 0,
+      "coverage": 1.0
+    },
+    "by_camera": {
+      "cam0": {
+        "TP": 1,
+        "FP": 1,
+        "TN": 0,
+        "FN": 0,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666,
+        "specificity": 0.0,
+        "false_positive_rate": 1.0,
+        "false_alarm_sequences": 1,
+        "false_positive_windows": 2,
+        "operational_false_events": 0,
+        "evaluated": 2,
+        "abstained": 0,
+        "errors": 0,
+        "unavailable": 0,
+        "coverage": 1.0
+      },
+      "cam1": {
+        "TP": 0,
+        "FP": 0,
+        "TN": 0,
+        "FN": 0,
+        "precision": null,
+        "recall": null,
+        "f1": null,
+        "specificity": null,
+        "false_positive_rate": null,
+        "false_alarm_sequences": 0,
+        "false_positive_windows": 0,
+        "operational_false_events": 0,
+        "evaluated": 0,
+        "abstained": 0,
+        "errors": 0,
+        "unavailable": 0,
+        "coverage": null
+      }
+    }
+  }
+}

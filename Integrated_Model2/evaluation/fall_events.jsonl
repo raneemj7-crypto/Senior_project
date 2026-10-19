@@ -1,0 +1,1 @@
+{"event": "fall_detected", "camera_id": "test-video", "track_id": 2, "time": 2.8, "fall_probability": 0.8283, "box": [241.8, 309.1, 421.3, 463.1], "threshold": 0.7, "model": "stgcnpp_fall_binary_v1.pth", "visibility": "full_body", "visibility_30frame": "full_body"}

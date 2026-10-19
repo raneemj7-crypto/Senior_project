@@ -1,0 +1,14 @@
+/Users/raneemjehad/Desktop/Senior_Project_Work/Integrated_Model2/.venv/lib/python3.14/site-packages/torch/jit/_serialization.py:170: FutureWarning: `torch.jit.load` is not supported in Python 3.14+ and may break. Please switch to `torch.export`.
+  warnings.warn(
+test_bad_checkpoint_and_reversed_labels_rejected (evaluation.model_comparison.test_adapters.AdapterTest.test_bad_checkpoint_and_reversed_labels_rejected) ... ok
+test_label_mapping_and_tie_rule (evaluation.model_comparison.test_adapters.AdapterTest.test_label_mapping_and_tie_rule) ... ok
+test_real_checkpoint_loading_and_forward (evaluation.model_comparison.test_adapters.AdapterTest.test_real_checkpoint_loading_and_forward) ... ok
+test_saved_training_layout_matches_source_conversion (evaluation.model_comparison.test_adapters.AdapterTest.test_saved_training_layout_matches_source_conversion) ... ok
+test_shapes_and_coordinate_order (evaluation.model_comparison.test_adapters.AdapterTest.test_shapes_and_coordinate_order) ... ok
+test_souad_threshold_unchanged (evaluation.model_comparison.test_adapters.AdapterTest.test_souad_threshold_unchanged) ... ok
+test_visibility_abstention_not_negative (evaluation.model_comparison.test_adapters.AdapterTest.test_visibility_abstention_not_negative) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.318s
+
+OK

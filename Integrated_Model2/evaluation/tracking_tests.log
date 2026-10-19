@@ -1,0 +1,27 @@
+test_events_not_max_probability_and_corrupt_sequence (test_batch_evaluate.BatchTest.test_events_not_max_probability_and_corrupt_sequence) ... ok
+test_metrics_errors_and_undefined_camera_specificity (test_batch_evaluate.BatchTest.test_metrics_errors_and_undefined_camera_specificity) ... ok
+test_natural_sort_and_class_interleaving (test_batch_evaluate.BatchTest.test_natural_sort_and_class_interleaving) ... ok
+test_reset_retains_networks_and_clears_state (test_batch_evaluate.BatchTest.test_reset_retains_networks_and_clears_state) ... ok
+test_full_body_annotation_preserves_probability (test_integration.IntegrationTest.test_full_body_annotation_preserves_probability) ... ok
+test_model1_input_is_not_modified (test_integration.IntegrationTest.test_model1_input_is_not_modified) ... ok
+test_uncertain_annotation (test_integration.IntegrationTest.test_uncertain_annotation) ... ok
+test_hidden_joints_and_colors (test_skeleton.SkeletonTest.test_hidden_joints_and_colors) ... ok
+test_history_prediction_and_id_transfer (test_skeleton.SkeletonTest.test_history_prediction_and_id_transfer) ... ok
+test_multiple_people_match_reversed_pose_order_and_missing (test_skeleton.SkeletonTest.test_multiple_people_match_reversed_pose_order_and_missing) ... ok
+test_ambiguous_pose_boxes_not_assigned_to_either_person (test_tracking_continuity.ContinuityTest.test_ambiguous_pose_boxes_not_assigned_to_either_person) ... ok
+test_ambiguous_two_donors_and_two_receivers_abstain (test_tracking_continuity.ContinuityTest.test_ambiguous_two_donors_and_two_receivers_abstain) ... ok
+test_disjoint_people_handover_is_order_independent (test_tracking_continuity.ContinuityTest.test_disjoint_people_handover_is_order_independent) ... ok
+test_invalid_pose_never_enters_buffer (test_tracking_continuity.ContinuityTest.test_invalid_pose_never_enters_buffer) ... ok
+test_keypoint_disagreement_and_weak_pose_cannot_merge (test_tracking_continuity.ContinuityTest.test_keypoint_disagreement_and_weak_pose_cannot_merge) ... ok
+test_legitimate_body_rotation_does_not_break_handover (test_tracking_continuity.ContinuityTest.test_legitimate_body_rotation_does_not_break_handover) ... ok
+test_long_gap_same_id_does_not_revive_history_or_alarm (test_tracking_continuity.ContinuityTest.test_long_gap_same_id_does_not_revive_history_or_alarm) ... ok
+test_present_person_without_pose_cannot_be_donor (test_tracking_continuity.ContinuityTest.test_present_person_without_pose_cannot_be_donor) ... ok
+test_previously_coexisting_ids_cannot_merge (test_tracking_continuity.ContinuityTest.test_previously_coexisting_ids_cannot_merge) ... ok
+test_same_id_spatial_jump_after_interruption_resets (test_tracking_continuity.ContinuityTest.test_same_id_spatial_jump_after_interruption_resets) ... ok
+test_short_gap_handover_preserves_confirmation_and_alarm (test_tracking_continuity.ContinuityTest.test_short_gap_handover_preserves_confirmation_and_alarm) ... ok
+test_stable_tracking_never_resets_and_preserves_input (test_tracking_continuity.ContinuityTest.test_stable_tracking_never_resets_and_preserves_input) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.029s
+
+OK

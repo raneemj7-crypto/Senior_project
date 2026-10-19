@@ -1,0 +1,107 @@
+{
+  "status": "provisional",
+  "dataset": "/Users/raneemjehad/Desktop/Senior_Project_Work/test",
+  "assumed_fps": 15,
+  "source_fps_verified": false,
+  "held_out_verified": false,
+  "discovered_sequences": 15,
+  "selected_sequences": 2,
+  "model_settings": {
+    "threshold": 0.7,
+    "clip_frames": 30,
+    "clip_fps": 15,
+    "joint_ok": 0.3,
+    "max_missing_frac": 0.3,
+    "pose_model": "yolov8n-pose.pt",
+    "detector_conf": 0.1,
+    "trained_from": "stgcnpp_fall_binary_v1.pth",
+    "torch_version": "2.11.0+cu130"
+  },
+  "checkpoint_sha256": "9aecf3702a38d4f3980c3441e642c7b3c23f29a415c9070f75bed1a7077ebfa7",
+  "provenance_notes": [
+    "PROVISIONAL: original recording FPS is unverified; --fps is an assumption, not proof of source timing.",
+    "Held-out status is unverified. model2_fall_detection/README.md describes 47 train/validation videos and 10 reserved cam0 test videos, but provides no sequence IDs or split manifest. Its referenced training directory/notebook is absent from this project.",
+    "No dataset metadata or onset annotations were found locally. Directory names alone do not prove exclusion from training, including alternate-camera views of training actions.",
+    "Required before final reporting: recover the checkpoint training split manifest, compare action identities across cameras, and verify source FPS and fall onset annotations.",
+    "Latency omitted without supplied ground-truth onset timestamps."
+  ],
+  "latency_onset_source": null,
+  "completed_sequences": 2,
+  "overall": {
+    "evaluated": 2,
+    "errors": 0,
+    "TP": 1,
+    "FP": 0,
+    "TN": 1,
+    "FN": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "specificity": 1.0,
+    "false_positive_rate": 0.0,
+    "false_alerts": 0,
+    "false_alerts_per_non_fall_video": 0.0,
+    "average_processing_fps": 18.17081718622727,
+    "median_processing_fps": 18.17081718622727
+  },
+  "by_camera": {
+    "cam0": {
+      "evaluated": 2,
+      "errors": 0,
+      "TP": 1,
+      "FP": 0,
+      "TN": 1,
+      "FN": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "specificity": 1.0,
+      "false_positive_rate": 0.0,
+      "false_alerts": 0,
+      "false_alerts_per_non_fall_video": 0.0,
+      "average_processing_fps": 18.17081718622727,
+      "median_processing_fps": 18.17081718622727
+    },
+    "cam1": {
+      "evaluated": 0,
+      "errors": 0,
+      "TP": 0,
+      "FP": 0,
+      "TN": 0,
+      "FN": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null,
+      "specificity": null,
+      "false_positive_rate": null,
+      "false_alerts": 0,
+      "false_alerts_per_non_fall_video": null,
+      "average_processing_fps": null,
+      "median_processing_fps": null
+    }
+  },
+  "by_dominant_visibility": {
+    "full_body": {
+      "evaluated": 2,
+      "errors": 0,
+      "TP": 1,
+      "FP": 0,
+      "TN": 1,
+      "FN": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "specificity": 1.0,
+      "false_positive_rate": 0.0,
+      "false_alerts": 0,
+      "false_alerts_per_non_fall_video": 0.0,
+      "average_processing_fps": 18.17081718622727,
+      "median_processing_fps": 18.17081718622727
+    }
+  },
+  "visibility_distribution": {
+    "full_body": 247,
+    "upper_body": 8
+  },
+  "failure_cases": []
+}

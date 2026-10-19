@@ -1,0 +1,399 @@
+/Users/raneemjehad/Desktop/Senior_Project_Work/Integrated_Model2/.venv/lib/python3.14/site-packages/torch/jit/_serialization.py:170: FutureWarning: `torch.jit.load` is not supported in Python 3.14+ and may break. Please switch to `torch.export`.
+  warnings.warn(
+[1/15] fall-05-cam0-rgb (151 frames)
+  souad_integrated: ok fall maxP=0.9957 error=None
+  souad_shared_clips: ok fall maxP=0.9983805418014526 error=None
+  raneem_stgcn_visibility: ok fall maxP=0.9999361038208008 error=None
+  raneem_stgcn_fullbody: ok fall maxP=0.9999998807907104 error=None
+  raneem_lstm: ok fall maxP=0.8827406167984009 error=None
+[2/15] adl-02-cam0-rgb (180 frames)
+  souad_integrated: ok non_fall maxP=0.003 error=None
+  souad_shared_clips: ok non_fall maxP=0.0019237410742789507 error=None
+  raneem_stgcn_visibility: ok non_fall maxP=0.4258514642715454 error=None
+  raneem_stgcn_fullbody: ok non_fall maxP=0.2383122593164444 error=None
+  raneem_lstm: ok fall maxP=0.6036508679389954 error=None
+[3/15] fall-05-cam1-rgb (151 frames)
+  souad_integrated: ok non_fall maxP=0.172 error=None
+  souad_shared_clips: ok non_fall maxP=0.08807516098022461 error=None
+  raneem_stgcn_visibility: ok fall maxP=0.7362244129180908 error=None
+  raneem_stgcn_fullbody: ok fall maxP=0.9402309656143188 error=None
+  raneem_lstm: ok fall maxP=0.9576247334480286 error=None
+[4/15] adl-05-cam0-rgb (180 frames)
+  souad_integrated: ok non_fall maxP=0.0037 error=None
+  souad_shared_clips: ok non_fall maxP=0.0037255578208714724 error=None
+  raneem_stgcn_visibility: ok non_fall maxP=0.03570942580699921 error=None
+  raneem_stgcn_fullbody: ok non_fall maxP=0.3279894292354584 error=None
+  raneem_lstm: ok non_fall maxP=0.21839050948619843 error=None
+[5/15] fall-06-cam0-rgb (100 frames)
+  souad_integrated: ok fall maxP=0.9963 error=None
+  souad_shared_clips: ok fall maxP=0.9935348033905029 error=None
+  raneem_stgcn_visibility: ok fall maxP=0.9993261098861694 error=None
+  raneem_stgcn_fullbody: ok fall maxP=0.9999996423721313 error=None
+  raneem_lstm: ok fall maxP=0.6987371444702148 error=None
+[6/15] adl-17-cam0-rgb (230 frames)
+  souad_integrated: ok non_fall maxP=0.0053 error=None
+  souad_shared_clips: ok non_fall maxP=0.002548610558733344 error=None
+  raneem_stgcn_visibility: ok non_fall maxP=0.24936188757419586 error=None
+  raneem_stgcn_fullbody: ok non_fall maxP=0.042149968445301056 error=None
+  raneem_lstm: ok non_fall maxP=0.14121784269809723 error=None
+[7/15] fall-06-cam1-rgb (100 frames)
+  souad_integrated: ok non_fall maxP=0.0981 error=None
+  souad_shared_clips: ok non_fall maxP=0.06864991039037704 error=None
+  raneem_stgcn_visibility: ok non_fall maxP=0.2827065885066986 error=None
+  raneem_stgcn_fullbody: ok fall maxP=0.5707623958587646 error=None
+  raneem_lstm: ok fall maxP=0.5746031403541565 error=None
+[8/15] adl-20-cam0-rgb (270 frames)
+  souad_integrated: ok non_fall maxP=0.0035 error=None
+  souad_shared_clips: ok non_fall maxP=0.00436512753367424 error=None
+  raneem_stgcn_visibility: ok non_fall maxP=0.29616501927375793 error=None
+  raneem_stgcn_fullbody: ok fall maxP=0.6608155369758606 error=None
+  raneem_lstm: ok non_fall maxP=0.11317871510982513 error=None
+[9/15] fall-09-cam0-rgb (185 frames)
+  souad_integrated: ok fall maxP=0.9097 error=None
+  souad_shared_clips: ok fall maxP=0.9754621982574463 error=None
+  raneem_stgcn_visibility: ok fall maxP=0.9999791383743286 error=None
+  raneem_stgcn_fullbody: ok fall maxP=1.0 error=None
+  raneem_lstm: ok fall maxP=0.8551753163337708 error=None
+[10/15] adl-25-cam0-rgb (110 frames)
+  souad_integrated: ok non_fall maxP=0.0006 error=None
+  souad_shared_clips: ok non_fall maxP=0.0006055748090147972 error=None
+  raneem_stgcn_visibility: ok non_fall maxP=0.05424227938055992 error=None
+  raneem_stgcn_fullbody: ok non_fall maxP=0.4231054484844208 error=None
+  raneem_lstm: ok non_fall maxP=0.14266908168792725 error=None
+[11/15] fall-09-cam1-rgb (185 frames)
+  souad_integrated: ok fall maxP=0.7669 error=None
+  souad_shared_clips: ok non_fall maxP=0.15135891735553741 error=None
+  raneem_stgcn_visibility: ok fall maxP=0.825455904006958 error=None
+  raneem_stgcn_fullbody: ok fall maxP=0.9911890029907227 error=None
+  raneem_lstm: ok fall maxP=0.5069040060043335 error=None
+[12/15] fall-10-cam0-rgb (130 frames)
+  souad_integrated: ok non_fall maxP=0.0753 error=None
+  souad_shared_clips: ok non_fall maxP=0.042928505688905716 error=None
+  raneem_stgcn_visibility: ok fall maxP=0.9999988079071045 error=None
+  raneem_stgcn_fullbody: ok fall maxP=1.0 error=None
+  raneem_lstm: ok fall maxP=0.9884408712387085 error=None
+[13/15] fall-10-cam1-rgb (130 frames)
+  souad_integrated: ok non_fall maxP=0.2062 error=None
+  souad_shared_clips: ok non_fall maxP=0.5749080777168274 error=None
+  raneem_stgcn_visibility: ok fall maxP=0.9315107464790344 error=None
+  raneem_stgcn_fullbody: ok fall maxP=0.9985597729682922 error=None
+  raneem_lstm: ok non_fall maxP=0.48646116256713867 error=None
+[14/15] fall-16-cam0-rgb (55 frames)
+  souad_integrated: ok fall maxP=0.9949 error=None
+  souad_shared_clips: ok fall maxP=0.9938270449638367 error=None
+  raneem_stgcn_visibility: ok fall maxP=0.9705634713172913 error=None
+  raneem_stgcn_fullbody: ok fall maxP=0.95388263463974 error=None
+  raneem_lstm: ok non_fall maxP=0.44669419527053833 error=None
+[15/15] fall-16-cam1-rgb (55 frames)
+  souad_integrated: ok non_fall maxP=0.0237 error=None
+  souad_shared_clips: abstained None maxP=None error=None
+  raneem_stgcn_visibility: ok non_fall maxP=0.37830233573913574 error=None
+  raneem_stgcn_fullbody: ok fall maxP=0.6318359375 error=None
+  raneem_lstm: ok non_fall maxP=0.4177985191345215 error=None
+{
+  "souad_integrated": {
+    "overall": {
+      "TP": 5,
+      "FP": 0,
+      "TN": 5,
+      "FN": 5,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "specificity": 1.0,
+      "false_positive_rate": 0.0,
+      "false_alarm_sequences": 0,
+      "false_positive_windows": 0,
+      "operational_false_events": 0,
+      "evaluated": 15,
+      "abstained": 0,
+      "errors": 0,
+      "unavailable": 0,
+      "coverage": 1.0
+    },
+    "by_camera": {
+      "cam0": {
+        "TP": 4,
+        "FP": 0,
+        "TN": 5,
+        "FN": 1,
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1": 0.8888888888888888,
+        "specificity": 1.0,
+        "false_positive_rate": 0.0,
+        "false_alarm_sequences": 0,
+        "false_positive_windows": 0,
+        "operational_false_events": 0,
+        "evaluated": 10,
+        "abstained": 0,
+        "errors": 0,
+        "unavailable": 0,
+        "coverage": 1.0
+      },
+      "cam1": {
+        "TP": 1,
+        "FP": 0,
+        "TN": 0,
+        "FN": 4,
+        "precision": 1.0,
+        "recall": 0.2,
+        "f1": 0.3333333333333333,
+        "specificity": null,
+        "false_positive_rate": null,
+        "false_alarm_sequences": 0,
+        "false_positive_windows": 0,
+        "operational_false_events": 0,
+        "evaluated": 5,
+        "abstained": 0,
+        "errors": 0,
+        "unavailable": 0,
+        "coverage": 1.0
+      }
+    }
+  },
+  "souad_shared_clips": {
+    "overall": {
+      "TP": 4,
+      "FP": 0,
+      "TN": 5,
+      "FN": 5,
+      "precision": 1.0,
+      "recall": 0.4444444444444444,
+      "f1": 0.6153846153846154,
+      "specificity": 1.0,
+      "false_positive_rate": 0.0,
+      "false_alarm_sequences": 0,
+      "false_positive_windows": 0,
+      "operational_false_events": 0,
+      "evaluated": 14,
+      "abstained": 1,
+      "errors": 0,
+      "unavailable": 0,
+      "coverage": 0.9333333333333333
+    },
+    "by_camera": {
+      "cam0": {
+        "TP": 4,
+        "FP": 0,
+        "TN": 5,
+        "FN": 1,
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1": 0.8888888888888888,
+        "specificity": 1.0,
+        "false_positive_rate": 0.0,
+        "false_alarm_sequences": 0,
+        "false_positive_windows": 0,
+        "operational_false_events": 0,
+        "evaluated": 10,
+        "abstained": 0,
+        "errors": 0,
+        "unavailable": 0,
+        "coverage": 1.0
+      },
+      "cam1": {
+        "TP": 0,
+        "FP": 0,
+        "TN": 0,
+        "FN": 4,
+        "precision": null,
+        "recall": 0.0,
+        "f1": 0.0,
+        "specificity": null,
+        "false_positive_rate": null,
+        "false_alarm_sequences": 0,
+        "false_positive_windows": 0,
+        "operational_false_events": 0,
+        "evaluated": 4,
+        "abstained": 1,
+        "errors": 0,
+        "unavailable": 0,
+        "coverage": 0.8
+      }
+    }
+  },
+  "raneem_stgcn_visibility": {
+    "overall": {
+      "TP": 8,
+      "FP": 0,
+      "TN": 5,
+      "FN": 2,
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1": 0.8888888888888888,
+      "specificity": 1.0,
+      "false_positive_rate": 0.0,
+      "false_alarm_sequences": 0,
+      "false_positive_windows": 0,
+      "operational_false_events": 0,
+      "evaluated": 15,
+      "abstained": 0,
+      "errors": 0,
+      "unavailable": 0,
+      "coverage": 1.0
+    },
+    "by_camera": {
+      "cam0": {
+        "TP": 5,
+        "FP": 0,
+        "TN": 5,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "specificity": 1.0,
+        "false_positive_rate": 0.0,
+        "false_alarm_sequences": 0,
+        "false_positive_windows": 0,
+        "operational_false_events": 0,
+        "evaluated": 10,
+        "abstained": 0,
+        "errors": 0,
+        "unavailable": 0,
+        "coverage": 1.0
+      },
+      "cam1": {
+        "TP": 3,
+        "FP": 0,
+        "TN": 0,
+        "FN": 2,
+        "precision": 1.0,
+        "recall": 0.6,
+        "f1": 0.75,
+        "specificity": null,
+        "false_positive_rate": null,
+        "false_alarm_sequences": 0,
+        "false_positive_windows": 0,
+        "operational_false_events": 0,
+        "evaluated": 5,
+        "abstained": 0,
+        "errors": 0,
+        "unavailable": 0,
+        "coverage": 1.0
+      }
+    }
+  },
+  "raneem_stgcn_fullbody": {
+    "overall": {
+      "TP": 10,
+      "FP": 1,
+      "TN": 4,
+      "FN": 0,
+      "precision": 0.9090909090909091,
+      "recall": 1.0,
+      "f1": 0.9523809523809523,
+      "specificity": 0.8,
+      "false_positive_rate": 0.2,
+      "false_alarm_sequences": 1,
+      "false_positive_windows": 2,
+      "operational_false_events": 0,
+      "evaluated": 15,
+      "abstained": 0,
+      "errors": 0,
+      "unavailable": 0,
+      "coverage": 1.0
+    },
+    "by_camera": {
+      "cam0": {
+        "TP": 5,
+        "FP": 1,
+        "TN": 4,
+        "FN": 0,
+        "precision": 0.8333333333333334,
+        "recall": 1.0,
+        "f1": 0.9090909090909091,
+        "specificity": 0.8,
+        "false_positive_rate": 0.2,
+        "false_alarm_sequences": 1,
+        "false_positive_windows": 2,
+        "operational_false_events": 0,
+        "evaluated": 10,
+        "abstained": 0,
+        "errors": 0,
+        "unavailable": 0,
+        "coverage": 1.0
+      },
+      "cam1": {
+        "TP": 5,
+        "FP": 0,
+        "TN": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "specificity": null,
+        "false_positive_rate": null,
+        "false_alarm_sequences": 0,
+        "false_positive_windows": 0,
+        "operational_false_events": 0,
+        "evaluated": 5,
+        "abstained": 0,
+        "errors": 0,
+        "unavailable": 0,
+        "coverage": 1.0
+      }
+    }
+  },
+  "raneem_lstm": {
+    "overall": {
+      "TP": 7,
+      "FP": 1,
+      "TN": 4,
+      "FN": 3,
+      "precision": 0.875,
+      "recall": 0.7,
+      "f1": 0.7777777777777778,
+      "specificity": 0.8,
+      "false_positive_rate": 0.2,
+      "false_alarm_sequences": 1,
+      "false_positive_windows": 2,
+      "operational_false_events": 0,
+      "evaluated": 15,
+      "abstained": 0,
+      "errors": 0,
+      "unavailable": 0,
+      "coverage": 1.0
+    },
+    "by_camera": {
+      "cam0": {
+        "TP": 4,
+        "FP": 1,
+        "TN": 4,
+        "FN": 1,
+        "precision": 0.8,
+        "recall": 0.8,
+        "f1": 0.8,
+        "specificity": 0.8,
+        "false_positive_rate": 0.2,
+        "false_alarm_sequences": 1,
+        "false_positive_windows": 2,
+        "operational_false_events": 0,
+        "evaluated": 10,
+        "abstained": 0,
+        "errors": 0,
+        "unavailable": 0,
+        "coverage": 1.0
+      },
+      "cam1": {
+        "TP": 3,
+        "FP": 0,
+        "TN": 0,
+        "FN": 2,
+        "precision": 1.0,
+        "recall": 0.6,
+        "f1": 0.75,
+        "specificity": null,
+        "false_positive_rate": null,
+        "false_alarm_sequences": 0,
+        "false_positive_windows": 0,
+        "operational_false_events": 0,
+        "evaluated": 5,
+        "abstained": 0,
+        "errors": 0,
+        "unavailable": 0,
+        "coverage": 1.0
+      }
+    }
+  }
+}

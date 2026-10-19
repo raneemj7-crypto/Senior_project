@@ -1,0 +1,11 @@
+/Users/raneemjehad/Desktop/Senior_Project_Work/Integrated_Model2/.venv/lib/python3.14/site-packages/torch/jit/_serialization.py:170: FutureWarning: `torch.jit.load` is not supported in Python 3.14+ and may break. Please switch to `torch.export`.
+  warnings.warn(
+0 0.0 IDs {1} changes {} before {}
+63 4.2 IDs set() changes {} before {1: {'last_seen': 4.133333333333334, 'history_frames': 37}}
+71 4.733333333333333 IDs {1} changes {} before {1: {'last_seen': 4.133333333333334, 'history_frames': 29}}
+72 4.8 IDs set() changes {} before {1: {'last_seen': 4.733333333333333, 'history_frames': 29}}
+76 5.066666666666666 IDs {1} changes {} before {1: {'last_seen': 4.733333333333333, 'history_frames': 25}}
+78 5.2 IDs set() changes {} before {1: {'last_seen': 5.133333333333334, 'history_frames': 25}}
+80 5.333333333333333 IDs {1} changes {} before {1: {'last_seen': 5.133333333333334, 'history_frames': 23}}
+86 5.733333333333333 IDs set() changes {} before {1: {'last_seen': 5.666666666666667, 'history_frames': 23}}
+94 6.266666666666667 IDs {12} changes {12: 1} before {1: {'last_seen': 5.666666666666667, 'history_frames': 15}}

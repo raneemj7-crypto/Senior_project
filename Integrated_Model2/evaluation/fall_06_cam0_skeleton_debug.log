@@ -1,0 +1,22 @@
+/Users/raneemjehad/Desktop/Senior_Project_Work/Integrated_Model2/.venv/lib/python3.14/site-packages/torch/jit/_serialization.py:170: FutureWarning: `torch.jit.load` is not supported in Python 3.14+ and may break. Please switch to `torch.export`.
+  warnings.warn(
+[tracking t=0.00] appeared=[1] lost=[] history_transfers={}
+[pose/fall t=0.00 ID=1] person_not_confirmed P=None diagnostics={'status': 'person_not_confirmed', 'history_seconds': 0.0, 'history_frames': 1, 'clear_frames': 1, 'confident_joints': 16}
+[pose/fall t=0.27 ID=1] insufficient_temporal_history P=None diagnostics={'status': 'insufficient_temporal_history', 'history_seconds': 0.267, 'history_frames': 5, 'clear_frames': 5, 'confident_joints': 16}
+[pose/fall t=1.80 ID=1] ready/below_fall_threshold P=0.0013 diagnostics={'status': 'ready', 'history_seconds': 1.8, 'history_frames': 28, 'clear_frames': 28, 'confident_joints': 16}
+[tracking t=2.20] appeared=[2] lost=[] history_transfers={}
+[pose/fall t=2.20 ID=2] missing_skeleton P=None diagnostics={'status': 'missing_skeleton'}
+[tracking t=2.27] appeared=[] lost=[1] history_transfers={2: 1}
+[pose/fall t=2.27 ID=2] ready/below_fall_threshold P=0.0078 diagnostics={'status': 'ready', 'history_seconds': 2.267, 'history_frames': 35, 'clear_frames': 35, 'confident_joints': 16}
+[pose/fall t=2.80 ID=2] ready P=0.8283 diagnostics={'status': 'ready', 'history_seconds': 2.4, 'history_frames': 37, 'clear_frames': 43, 'confident_joints': 16}
+FALL EVENT: {"event": "fall_detected", "camera_id": "test-video", "track_id": 2, "time": 2.8, "fall_probability": 0.8283, "box": [241.8, 309.1, 421.3, 463.1], "threshold": 0.7, "model": "stgcnpp_fall_binary_v1.pth", "visibility": "full_body", "visibility_30frame": "full_body"}
+[pose/fall t=4.27 ID=2] ready/below_fall_threshold P=0.5467 diagnostics={'status': 'ready', 'history_seconds': 2.4, 'history_frames': 37, 'clear_frames': 60, 'confident_joints': 15}
+[pose/fall t=6.27 ID=2] ready/below_fall_threshold P=0.0005 diagnostics={'status': 'ready', 'history_seconds': 2.4, 'history_frames': 37, 'clear_frames': 90, 'confident_joints': 14}
+Processed 100 frames...
+Finished: 100 frames, 6.7 s of video, 1 fall events
+Processing throughput: 13.15 FPS (includes detection, pose, fall inference)
+Max fall probability per ID: {1: 0.0122, 2: 0.9955}
+Below-threshold probabilities cannot confirm a fall, even if a fall is visible to a reviewer.
+Events: evaluation/fall_events.jsonl
+Annotated video: evaluation/fall_06_cam0_skeleton.mp4
+Note: these are detected events, not accuracy scores; scoring needs ground-truth labels.

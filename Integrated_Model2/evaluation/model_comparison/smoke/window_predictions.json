@@ -1,0 +1,754 @@
+[
+  {
+    "sequence": "fall-05-cam0-rgb",
+    "model": "souad_integrated"
+  },
+  {
+    "sequence": "fall-05-cam0-rgb",
+    "model": "souad_shared_clips",
+    "window_predictions": [
+      {
+        "start_frame": 0,
+        "end_frame": 29,
+        "fall_probability": 0.0015034740790724754,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 10,
+        "end_frame": 39,
+        "fall_probability": 0.0013480489142239094,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 20,
+        "end_frame": 49,
+        "fall_probability": 0.002738983603194356,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 30,
+        "end_frame": 59,
+        "fall_probability": 0.0034958256874233484,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 40,
+        "end_frame": 69,
+        "fall_probability": 0.0030186667572706938,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 50,
+        "end_frame": 79,
+        "fall_probability": 0.0029170229099690914,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 60,
+        "end_frame": 89,
+        "fall_probability": 0.026103273034095764,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 70,
+        "end_frame": 99,
+        "fall_probability": 0.00010036406456492841,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 80,
+        "end_frame": 109,
+        "fall_probability": 0.8930590152740479,
+        "prediction": "fall"
+      },
+      {
+        "start_frame": 90,
+        "end_frame": 119,
+        "fall_probability": 0.9983805418014526,
+        "prediction": "fall"
+      },
+      {
+        "start_frame": 100,
+        "end_frame": 129,
+        "fall_probability": 0.06810186058282852,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 110,
+        "end_frame": 139,
+        "fall_probability": 0.0006820211419835687,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 120,
+        "end_frame": 149,
+        "fall_probability": 0.0006403051083907485,
+        "prediction": "non_fall"
+      }
+    ]
+  },
+  {
+    "sequence": "fall-05-cam0-rgb",
+    "model": "raneem_stgcn_visibility",
+    "window_predictions": [
+      {
+        "start_frame": 0,
+        "end_frame": 29,
+        "fall_probability": 0.0067536840215325356,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 10,
+        "end_frame": 39,
+        "fall_probability": 0.01110881008207798,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 20,
+        "end_frame": 49,
+        "fall_probability": 0.017476415261626244,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 30,
+        "end_frame": 59,
+        "fall_probability": 0.021739119663834572,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 40,
+        "end_frame": 69,
+        "fall_probability": 0.021894726902246475,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 50,
+        "end_frame": 79,
+        "fall_probability": 0.01930726319551468,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 60,
+        "end_frame": 89,
+        "fall_probability": 0.019573209807276726,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 70,
+        "end_frame": 99,
+        "fall_probability": 0.04704491049051285,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 80,
+        "end_frame": 109,
+        "fall_probability": 0.47229674458503723,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 90,
+        "end_frame": 119,
+        "fall_probability": 0.9956727027893066,
+        "prediction": "fall"
+      },
+      {
+        "start_frame": 100,
+        "end_frame": 129,
+        "fall_probability": 0.9999079704284668,
+        "prediction": "fall"
+      },
+      {
+        "start_frame": 110,
+        "end_frame": 139,
+        "fall_probability": 0.9999346733093262,
+        "prediction": "fall"
+      },
+      {
+        "start_frame": 120,
+        "end_frame": 149,
+        "fall_probability": 0.9999361038208008,
+        "prediction": "fall"
+      }
+    ]
+  },
+  {
+    "sequence": "fall-05-cam0-rgb",
+    "model": "raneem_stgcn_fullbody",
+    "window_predictions": [
+      {
+        "start_frame": 0,
+        "end_frame": 29,
+        "fall_probability": 0.03903239965438843,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 10,
+        "end_frame": 39,
+        "fall_probability": 0.07385002821683884,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 20,
+        "end_frame": 49,
+        "fall_probability": 0.16495369374752045,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 30,
+        "end_frame": 59,
+        "fall_probability": 0.3579222857952118,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 40,
+        "end_frame": 69,
+        "fall_probability": 0.513845682144165,
+        "prediction": "fall"
+      },
+      {
+        "start_frame": 50,
+        "end_frame": 79,
+        "fall_probability": 0.5353467464447021,
+        "prediction": "fall"
+      },
+      {
+        "start_frame": 60,
+        "end_frame": 89,
+        "fall_probability": 0.550011932849884,
+        "prediction": "fall"
+      },
+      {
+        "start_frame": 70,
+        "end_frame": 99,
+        "fall_probability": 0.6756329536437988,
+        "prediction": "fall"
+      },
+      {
+        "start_frame": 80,
+        "end_frame": 109,
+        "fall_probability": 0.8804348707199097,
+        "prediction": "fall"
+      },
+      {
+        "start_frame": 90,
+        "end_frame": 119,
+        "fall_probability": 0.9996641874313354,
+        "prediction": "fall"
+      },
+      {
+        "start_frame": 100,
+        "end_frame": 129,
+        "fall_probability": 0.9999984502792358,
+        "prediction": "fall"
+      },
+      {
+        "start_frame": 110,
+        "end_frame": 139,
+        "fall_probability": 0.9999992847442627,
+        "prediction": "fall"
+      },
+      {
+        "start_frame": 120,
+        "end_frame": 149,
+        "fall_probability": 0.9999998807907104,
+        "prediction": "fall"
+      }
+    ]
+  },
+  {
+    "sequence": "fall-05-cam0-rgb",
+    "model": "raneem_lstm",
+    "window_predictions": [
+      {
+        "start_frame": 0,
+        "end_frame": 29,
+        "fall_probability": 0.015879498794674873,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 10,
+        "end_frame": 39,
+        "fall_probability": 0.018055642023682594,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 20,
+        "end_frame": 49,
+        "fall_probability": 0.02881733886897564,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 30,
+        "end_frame": 59,
+        "fall_probability": 0.02667090855538845,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 40,
+        "end_frame": 69,
+        "fall_probability": 0.02674470841884613,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 50,
+        "end_frame": 79,
+        "fall_probability": 0.04034024104475975,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 60,
+        "end_frame": 89,
+        "fall_probability": 0.08670905232429504,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 70,
+        "end_frame": 99,
+        "fall_probability": 0.3812946677207947,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 80,
+        "end_frame": 109,
+        "fall_probability": 0.1317506581544876,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 90,
+        "end_frame": 119,
+        "fall_probability": 0.8119088411331177,
+        "prediction": "fall"
+      },
+      {
+        "start_frame": 100,
+        "end_frame": 129,
+        "fall_probability": 0.8827406167984009,
+        "prediction": "fall"
+      },
+      {
+        "start_frame": 110,
+        "end_frame": 139,
+        "fall_probability": 0.1449768841266632,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 120,
+        "end_frame": 149,
+        "fall_probability": 0.6746355295181274,
+        "prediction": "fall"
+      }
+    ]
+  },
+  {
+    "sequence": "adl-02-cam0-rgb",
+    "model": "souad_integrated"
+  },
+  {
+    "sequence": "adl-02-cam0-rgb",
+    "model": "souad_shared_clips",
+    "window_predictions": [
+      {
+        "start_frame": 0,
+        "end_frame": 29,
+        "fall_probability": null,
+        "prediction": null
+      },
+      {
+        "start_frame": 10,
+        "end_frame": 39,
+        "fall_probability": null,
+        "prediction": null
+      },
+      {
+        "start_frame": 20,
+        "end_frame": 49,
+        "fall_probability": null,
+        "prediction": null
+      },
+      {
+        "start_frame": 30,
+        "end_frame": 59,
+        "fall_probability": 0.0019237410742789507,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 40,
+        "end_frame": 69,
+        "fall_probability": 0.0010555882472544909,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 50,
+        "end_frame": 79,
+        "fall_probability": 0.001237888471223414,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 60,
+        "end_frame": 89,
+        "fall_probability": 0.0015925386687740684,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 70,
+        "end_frame": 99,
+        "fall_probability": 0.0016771132359281182,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 80,
+        "end_frame": 109,
+        "fall_probability": 0.0015757880173623562,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 90,
+        "end_frame": 119,
+        "fall_probability": 0.0014441284583881497,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 100,
+        "end_frame": 129,
+        "fall_probability": 7.535179975093342e-06,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 110,
+        "end_frame": 139,
+        "fall_probability": 2.7844214400829514e-06,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 120,
+        "end_frame": 149,
+        "fall_probability": 4.117449861951172e-06,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 130,
+        "end_frame": 159,
+        "fall_probability": 1.754908953444101e-05,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 140,
+        "end_frame": 169,
+        "fall_probability": 4.877824721916113e-06,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 150,
+        "end_frame": 179,
+        "fall_probability": 2.3151904315454885e-05,
+        "prediction": "non_fall"
+      }
+    ]
+  },
+  {
+    "sequence": "adl-02-cam0-rgb",
+    "model": "raneem_stgcn_visibility",
+    "window_predictions": [
+      {
+        "start_frame": 0,
+        "end_frame": 29,
+        "fall_probability": null,
+        "prediction": null
+      },
+      {
+        "start_frame": 10,
+        "end_frame": 39,
+        "fall_probability": null,
+        "prediction": null
+      },
+      {
+        "start_frame": 20,
+        "end_frame": 49,
+        "fall_probability": 0.050171032547950745,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 30,
+        "end_frame": 59,
+        "fall_probability": 0.0042650578543543816,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 40,
+        "end_frame": 69,
+        "fall_probability": 0.002987803192809224,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 50,
+        "end_frame": 79,
+        "fall_probability": 0.003146873787045479,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 60,
+        "end_frame": 89,
+        "fall_probability": 0.0035465117543935776,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 70,
+        "end_frame": 99,
+        "fall_probability": 0.00463466951623559,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 80,
+        "end_frame": 109,
+        "fall_probability": 0.006251287646591663,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 90,
+        "end_frame": 119,
+        "fall_probability": 0.009236960671842098,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 100,
+        "end_frame": 129,
+        "fall_probability": 0.017435751855373383,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 110,
+        "end_frame": 139,
+        "fall_probability": 0.05087193101644516,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 120,
+        "end_frame": 149,
+        "fall_probability": 0.14252178370952606,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 130,
+        "end_frame": 159,
+        "fall_probability": 0.3159380555152893,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 140,
+        "end_frame": 169,
+        "fall_probability": 0.4258514642715454,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 150,
+        "end_frame": 179,
+        "fall_probability": 0.41128069162368774,
+        "prediction": "non_fall"
+      }
+    ]
+  },
+  {
+    "sequence": "adl-02-cam0-rgb",
+    "model": "raneem_stgcn_fullbody",
+    "window_predictions": [
+      {
+        "start_frame": 0,
+        "end_frame": 29,
+        "fall_probability": null,
+        "prediction": null
+      },
+      {
+        "start_frame": 10,
+        "end_frame": 39,
+        "fall_probability": null,
+        "prediction": null
+      },
+      {
+        "start_frame": 20,
+        "end_frame": 49,
+        "fall_probability": 0.01759522035717964,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 30,
+        "end_frame": 59,
+        "fall_probability": 0.0022435819264501333,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 40,
+        "end_frame": 69,
+        "fall_probability": 0.003222891828045249,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 50,
+        "end_frame": 79,
+        "fall_probability": 0.004578005988150835,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 60,
+        "end_frame": 89,
+        "fall_probability": 0.0070609524846076965,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 70,
+        "end_frame": 99,
+        "fall_probability": 0.014172018505632877,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 80,
+        "end_frame": 109,
+        "fall_probability": 0.03600320219993591,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 90,
+        "end_frame": 119,
+        "fall_probability": 0.0949406772851944,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 100,
+        "end_frame": 129,
+        "fall_probability": 0.20524266362190247,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 110,
+        "end_frame": 139,
+        "fall_probability": 0.2383122593164444,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 120,
+        "end_frame": 149,
+        "fall_probability": 0.14489737153053284,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 130,
+        "end_frame": 159,
+        "fall_probability": 0.08746923506259918,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 140,
+        "end_frame": 169,
+        "fall_probability": 0.07000386714935303,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 150,
+        "end_frame": 179,
+        "fall_probability": 0.05627359077334404,
+        "prediction": "non_fall"
+      }
+    ]
+  },
+  {
+    "sequence": "adl-02-cam0-rgb",
+    "model": "raneem_lstm",
+    "window_predictions": [
+      {
+        "start_frame": 0,
+        "end_frame": 29,
+        "fall_probability": null,
+        "prediction": null
+      },
+      {
+        "start_frame": 10,
+        "end_frame": 39,
+        "fall_probability": null,
+        "prediction": null
+      },
+      {
+        "start_frame": 20,
+        "end_frame": 49,
+        "fall_probability": 0.02085919678211212,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 30,
+        "end_frame": 59,
+        "fall_probability": 0.01821732707321644,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 40,
+        "end_frame": 69,
+        "fall_probability": 0.017600538209080696,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 50,
+        "end_frame": 79,
+        "fall_probability": 0.016520336270332336,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 60,
+        "end_frame": 89,
+        "fall_probability": 0.01606796309351921,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 70,
+        "end_frame": 99,
+        "fall_probability": 0.015726715326309204,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 80,
+        "end_frame": 109,
+        "fall_probability": 0.019359342753887177,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 90,
+        "end_frame": 119,
+        "fall_probability": 0.05465765297412872,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 100,
+        "end_frame": 129,
+        "fall_probability": 0.13455574214458466,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 110,
+        "end_frame": 139,
+        "fall_probability": 0.3680512011051178,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 120,
+        "end_frame": 149,
+        "fall_probability": 0.34760597348213196,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 130,
+        "end_frame": 159,
+        "fall_probability": 0.37274864315986633,
+        "prediction": "non_fall"
+      },
+      {
+        "start_frame": 140,
+        "end_frame": 169,
+        "fall_probability": 0.507022500038147,
+        "prediction": "fall"
+      },
+      {
+        "start_frame": 150,
+        "end_frame": 179,
+        "fall_probability": 0.6036508679389954,
+        "prediction": "fall"
+      }
+    ]
+  }
+]

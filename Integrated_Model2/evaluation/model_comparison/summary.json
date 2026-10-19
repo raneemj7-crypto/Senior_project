@@ -1,0 +1,744 @@
+{
+  "status": "provisional",
+  "assumed_fps": 15.0,
+  "window_frames": 30,
+  "stride_frames": 10,
+  "selected_sequences": 15,
+  "discovered_sequences": 15,
+  "provenance": {
+    "status": "provisional",
+    "raneem_available_event_ids": [
+      "adl-01",
+      "adl-04",
+      "adl-06",
+      "adl-07",
+      "adl-08",
+      "adl-09",
+      "adl-12",
+      "adl-14",
+      "adl-16",
+      "adl-19",
+      "fall-01",
+      "fall-03",
+      "fall-04"
+    ],
+    "overlap_with_available_raneem_data": [],
+    "souad_notebook": "/Users/raneemjehad/Desktop/Senior_Project_Work/Souad_Work/model2_fall_detection/training/Themam_STGCN_Clean.ipynb",
+    "souad_notebook_sha256": "340a0659af96f9e6bec67082c5c69accb6a18d71d247321c151cc7c02b5290d3",
+    "souad_saved_split_check": true,
+    "limitations": [
+      "Available Raneem event_ids and preparation scripts show no overlap with these test action identities, but checkpoints lack signed/version-linked split manifests.",
+      "Souad notebook contains saved split checks and train/validation lists with no apparent test-action overlap; this does not bind the exported checkpoint to a verified dataset manifest.",
+      "Original recording FPS remains unverified. Notebook fallback mentions 30 FPS; prior evaluation assumed 15 FPS. This comparison retains 15 provisionally for baseline comparability.",
+      "No claim of an independently verified held-out test set; no fall-onset or latency ground truth is supplied."
+    ]
+  },
+  "protected_file_sha256": {
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/visualize_sequence.py": "7d3110eeae893dda4d2fd2afebffd4936d09c1a98cba7fb899b1c79597c5956d",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/crowd_visibility.py": "b51f8b611e21e6ed28f9ab419736bfea16bf7d092a26b397b192c24930c0d177",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/visibility_aware_model.py": "b849ed6868c7814d01281566ebd02d9808d21cfee9de3baa5d1fb71a8f76ffb1",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/yolov8n-pose.pt": "c6fa93dd1ee4a2c18c900a45c1d864a1c6f7aba75d84f91648a30b7fb641d212",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/prepare_training_data.py": "c1fc42573816a8db4543d5e8cee9f6c4489418acc9acf2bfbdb7d07ffe8cf214",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/test_visibility.py": "391506fbfcdbff0e6322871cabb8344ece352b07b1f84f4f9c6c93b4a57ee286",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/visibility_detection.py": "6c14e88eee267f213378b92397332c273fd0be016033670b4383e87394c0d391",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/pose_extraction.py": "9979de3655d351c08db22f382dd4c71c2a2e4c39143affe1262011b2a04da2f8",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/train_fall_model.py": "25bb55e0455c22e9f5e106e8e77153061b85507ff40442fe44ff026ae7bb87bd",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/verify_fall_frames.py": "162c341109515ce8d7ff137c55a6bb7fced76f896aff2faf118552fa9243d79e",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/analyze_fall_sequences.py": "6fb88af39e05ddd6ea665cf5002e48ddbed4b0fb2b72cdbf11b40a641ab3650c",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/visualize_fall_model.py": "608719ae146e1ff1d63dc14577b979cdb29d43fffceccfe57aae55d215a31a45",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/stgcn_project/prepare_stgcn_data.py": "d580f3f2e123d8bcafa023289f9ed90a6b7482c4e0261aa61f5ed7117afb8189",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/stgcn_project/train_stgcn.py": "b45b0bcf2f12e5b04d9bee4631d5e0c3c6001742d4f10f9a787897ada4cf8033",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/stgcn_project/train_fullbody_baseline.py": "66b1c74df113be7f1fc58ebdc89bbeeb8fb704e0d3ec5465f4b5ad84e19fff65",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/stgcn_project/visualize_model_comparison.py": "6f9a041d8c38596784cafcefe1ece49314cbab958ce61c312b7a10abe738a49e",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/stgcn_project/compare_models.py": "7fcb3ca4b61053b1bf429ec51211290ff471e6dbb59403927f01c5dc00d7c1f1",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/stgcn_project/stgcn_model.py": "f3d19b59227132cc2576a3855378247559647899ca4ac6995c1094ab856e565a",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/stgcn_project/test_visibility_stgcn.py": "c625e8b2f6f0695f55401d6417b1e6dd059da4326fab853ef4fab5b32b8e1c1b",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/stgcn_project/trained_model/fullbody_baseline.pth": "2d23ed0345256f557a93bd77b416319cf65b82fafe0dabb74ae2dc5f6a804250",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/stgcn_project/trained_model/best_stgcn_model.pth": "3c8ab3a5b9424e236cd3a64cb51c644fbcc86f31f13f2aff70f0d53fbb556a19",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/stgcn_project/data/y_train.npy": "103b8b9386d51d852d2def26351fbeac2cadf93551e24f73234afde8a97faccd",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/stgcn_project/data/y_test.npy": "17846dae6dfe9ec7241cf154a1bb99ca8be6e24ce924246baf049ee82c887f77",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/stgcn_project/data/X_test.npy": "7a0d2c3e8d7c779e5fffc974890aa3da7cd6b05f447fc6883fe8993b0f4bdc58",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/stgcn_project/data/y_val.npy": "94b6c0257c5c7520b3f0ebf37e5e4f94076b79f429f851bfd9a82864d8ea3a4b",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/stgcn_project/data/X_train.npy": "b4ad2c278734028220766e6b93e784d1978c48cbeab2bc6b2561b8145c3a86ef",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/stgcn_project/data/X_val.npy": "01f696c3a3ec31d9494e999e34d6b8c92d5f6d79450922214338821400404847",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/results/training_data/event_ids.npy": "6f8ffd3ba4ae0f270668f19a7380b46240c0221c803de126183301ec8f48b5ee",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/results/training_data/y_train_sample.npy": "56e9b976df8852115ee622baefca06fa9ace343837271de8aa597ba28c7224e0",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/results/training_data/sequence_names.npy": "801ad02a09719fb734b78417c6735f99ba62d08932dbe3245cc6d1d790397237",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/results/training_data/X_train_sample.npy": "11a189dafbdc5ed682f5c6aadc9adb9dc16e39fa0fb06da180f0acaa8396cc9c",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/results/trained_model/fall_detection_lstm.pth": "74606ac8fd75dd9979ee7a9b52120a11cdd36593c6ebc15f0f1da99baa44b8e1",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/results/crowd_training/visibility_types.npy": "d92999073970c59561612a4755a24da1741fb1f29d8895517cb197b2234d2a49",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/results/crowd_training/y_crowd.npy": "98a92d43fdb9f3e751674380612004264cbfe9cb4fbd4435c46fd8170444069a",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/results/crowd_training/X_crowd.npy": "ad9e494e53737de76faa08bceb11c2bfd9a11e2442b58f343754dd54dfb7552e",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Souad_Work/model2_fall_detection/fall_module.py": "a63d60d977ac426c59dcd8497b203e8d64a5f70a289307d3e7d6c36a9c0eb936",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Souad_Work/model2_fall_detection/integration_example.py": "57d2ce67a2176ddce8f4e258d4fe1c1a79b7b7f525cca5d7cd8a28219c9d9757",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Souad_Work/model2_fall_detection/live_fall_demo.py": "b570fc73b3254d4d6a770e44489558f03352ecacc9bdef306f8febb301c24d7e",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Souad_Work/model2_fall_detection/__init__.py": "257533e2b534251de8b5f725861490dc6d4bb4f75e88c65043eb9488e4f19079",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Souad_Work/model2_fall_detection/fall_core.py": "6441e8f579b9baa7604931b1f171573e755a046da2d521d63e0306f0f252907c",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Souad_Work/model2_fall_detection/training/Themam_STGCN_Clean.ipynb": "340a0659af96f9e6bec67082c5c69accb6a18d71d247321c151cc7c02b5290d3",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Souad_Work/model2_fall_detection/tests/test_module.py": "f7f08bd3540470a510c0275d807d68b5d0ee2f119c593672bb1394e2d9be3572",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Souad_Work/model2_fall_detection/models/stgcnpp_fall_v1_laptop.json": "bb8687eaed1ca28ac834e5e9a32b0af8ecd7edc5bec751daec2d9356f52e3e1f",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Souad_Work/model2_fall_detection/models/stgcnpp_fall_v1_laptop.pt": "9aecf3702a38d4f3980c3441e642c7b3c23f29a415c9070f75bed1a7077ebfa7",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Integrated_Model2/integrated_model2.py": "babcfa1bf33ef9f81fbee4904a03b9847b58db6ad1dfd8cc62b6cb88011f234e",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Integrated_Model2/test_video.py": "2ff5677de928b5d63b3c9658841721df59b1f58c1b9d314e1e6cc634bf643197",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Integrated_Model2/batch_evaluate.py": "9b2014e2f576166be1a45d44886f1a3ee57d328dd757af1f0839f527e6335726",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Integrated_Model2/model2_fall_detection/fall_core.py": "66413c5563c571a690644a7e7823fed14c47204e05cf19f1b0a94bec39e385b8",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Integrated_Model2/model2_fall_detection/fall_module.py": "f6d6b45b3e6a1d1528dcd5718ebb78794777f2dc57342ae095541a0a4dcae7d9",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Integrated_Model2/model2_fall_detection/tracking.py": "04b9513fb87bfbbe8efb49ce528737f0ed12430a677aee14d43cddafbc5a41fe",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Integrated_Model2/visibility/visibility_detection.py": "6c14e88eee267f213378b92397332c273fd0be016033670b4383e87394c0d391",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Integrated_Model2/evaluation/batch_results.csv": "7ee09807abd87e97661db44e88db8483b0bd498d6ff4999e52cd9a43fb0a2956",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Integrated_Model2/evaluation/summary.json": "5da1712f75db8b44b10ac88d9a13f4e72807ef9f0910b7ba68f3f6907c3d3a3f",
+    "/Users/raneemjehad/Desktop/Senior_Project_Work/Integrated_Model2/evaluation/tracking_comparison.md": "bd03de0bf0e7cea1b65a71e7efc3180e9ab4611597a97877c9f0e60f9b8c10a7"
+  },
+  "original_files_unchanged": true,
+  "changed_protected_files": [],
+  "models": {
+    "souad_integrated": {
+      "available": true,
+      "model_error": null,
+      "decision_rule": "Actual integrated fall events at 0.70; existing confirmation, handover and alarm hold retained",
+      "checkpoint": "/Users/raneemjehad/Desktop/Senior_Project_Work/Integrated_Model2/model2_fall_detection/models/stgcnpp_fall_v1_laptop.pt",
+      "checkpoint_sha256": "9aecf3702a38d4f3980c3441e642c7b3c23f29a415c9070f75bed1a7077ebfa7"
+    },
+    "souad_shared_clips": {
+      "available": true,
+      "checkpoint": "/Users/raneemjehad/Desktop/Senior_Project_Work/Integrated_Model2/model2_fall_detection/models/stgcnpp_fall_v1_laptop.pt",
+      "checkpoint_sha256": "9aecf3702a38d4f3980c3441e642c7b3c23f29a415c9070f75bed1a7077ebfa7",
+      "input_shape": "N,30,17,3",
+      "labels": [
+        "non_fall",
+        "fall"
+      ],
+      "normalization": "Original normalize_clip, joint_ok=0.30",
+      "decision_rule": "exported P(fall) >= 0.70",
+      "visibility_gate": "max_missing_frac <=0.30; original normalization validity",
+      "model_error": null
+    },
+    "raneem_stgcn_visibility": {
+      "available": true,
+      "checkpoint": "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/stgcn_project/trained_model/best_stgcn_model.pth",
+      "checkpoint_sha256": "3c8ab3a5b9424e236cd3a64cb51c644fbcc86f31f13f2aff70f0d53fbb556a19",
+      "architecture_source": "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/stgcn_project/stgcn_model.py",
+      "source_sha256": "f3d19b59227132cc2576a3855378247559647899ca4ac6995c1094ab856e565a",
+      "checkpoint_metadata": {
+        "epoch": 2,
+        "validation_loss": 0.625062578602841,
+        "class_weights": [
+          0.5266666666666666,
+          9.875
+        ]
+      },
+      "input_shape": "N,3,30,17,1",
+      "labels": [
+        "non_fall",
+        "fall"
+      ],
+      "normalization": "x/image_width, y/image_height; confidence unchanged",
+      "decision_rule": "argmax two logits; ties => non_fall; no independently documented probability threshold",
+      "visibility_gate": "At least 15 frames with >=3 joints at confidence >=0.35",
+      "model_error": null
+    },
+    "raneem_stgcn_fullbody": {
+      "available": true,
+      "checkpoint": "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/stgcn_project/trained_model/fullbody_baseline.pth",
+      "checkpoint_sha256": "2d23ed0345256f557a93bd77b416319cf65b82fafe0dabb74ae2dc5f6a804250",
+      "architecture_source": "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/stgcn_project/stgcn_model.py",
+      "source_sha256": "f3d19b59227132cc2576a3855378247559647899ca4ac6995c1094ab856e565a",
+      "checkpoint_metadata": {
+        "epoch": 13,
+        "validation_loss": 0.4038117956696895,
+        "training_type": "full_body_only"
+      },
+      "input_shape": "N,3,30,17,1",
+      "labels": [
+        "non_fall",
+        "fall"
+      ],
+      "normalization": "x/image_width, y/image_height; confidence unchanged",
+      "decision_rule": "argmax two logits; ties => non_fall; no independently documented probability threshold",
+      "visibility_gate": "At least 15 frames with >=3 joints at confidence >=0.35",
+      "model_error": null
+    },
+    "raneem_lstm": {
+      "available": true,
+      "checkpoint": "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/results/trained_model/fall_detection_lstm.pth",
+      "checkpoint_sha256": "74606ac8fd75dd9979ee7a9b52120a11cdd36593c6ebc15f0f1da99baa44b8e1",
+      "architecture_source": "/Users/raneemjehad/Desktop/Senior_Project_Work/Raneem_Work/train_fall_model.py",
+      "source_sha256": "25bb55e0455c22e9f5e106e8e77153061b85507ff40442fe44ff026ae7bb87bd",
+      "checkpoint_metadata": {
+        "input_size": 51,
+        "hidden_size": 64,
+        "num_layers": 2,
+        "window_size": 30,
+        "classes": [
+          "non_fall",
+          "fall"
+        ]
+      },
+      "input_shape": "N,30,51",
+      "labels": [
+        "non_fall",
+        "fall"
+      ],
+      "normalization": "x/image_width, y/image_height; confidence unchanged",
+      "decision_rule": "argmax two logits; ties => non_fall; no independently documented probability threshold",
+      "visibility_gate": "Abstain if >15 of 30 frames have uncertain visibility (visibility_aware_model.py)",
+      "model_error": null
+    }
+  },
+  "results": {
+    "souad_integrated": {
+      "overall": {
+        "TP": 5,
+        "FP": 0,
+        "TN": 5,
+        "FN": 5,
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666,
+        "specificity": 1.0,
+        "false_positive_rate": 0.0,
+        "false_alarm_sequences": 0,
+        "false_positive_windows": 0,
+        "operational_false_events": 0,
+        "evaluated": 15,
+        "abstained": 0,
+        "errors": 0,
+        "unavailable": 0,
+        "coverage": 1.0
+      },
+      "by_camera": {
+        "cam0": {
+          "TP": 4,
+          "FP": 0,
+          "TN": 5,
+          "FN": 1,
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1": 0.8888888888888888,
+          "specificity": 1.0,
+          "false_positive_rate": 0.0,
+          "false_alarm_sequences": 0,
+          "false_positive_windows": 0,
+          "operational_false_events": 0,
+          "evaluated": 10,
+          "abstained": 0,
+          "errors": 0,
+          "unavailable": 0,
+          "coverage": 1.0
+        },
+        "cam1": {
+          "TP": 1,
+          "FP": 0,
+          "TN": 0,
+          "FN": 4,
+          "precision": 1.0,
+          "recall": 0.2,
+          "f1": 0.3333333333333333,
+          "specificity": null,
+          "false_positive_rate": null,
+          "false_alarm_sequences": 0,
+          "false_positive_windows": 0,
+          "operational_false_events": 0,
+          "evaluated": 5,
+          "abstained": 0,
+          "errors": 0,
+          "unavailable": 0,
+          "coverage": 1.0
+        }
+      }
+    },
+    "souad_shared_clips": {
+      "overall": {
+        "TP": 4,
+        "FP": 0,
+        "TN": 5,
+        "FN": 5,
+        "precision": 1.0,
+        "recall": 0.4444444444444444,
+        "f1": 0.6153846153846154,
+        "specificity": 1.0,
+        "false_positive_rate": 0.0,
+        "false_alarm_sequences": 0,
+        "false_positive_windows": 0,
+        "operational_false_events": 0,
+        "evaluated": 14,
+        "abstained": 1,
+        "errors": 0,
+        "unavailable": 0,
+        "coverage": 0.9333333333333333
+      },
+      "by_camera": {
+        "cam0": {
+          "TP": 4,
+          "FP": 0,
+          "TN": 5,
+          "FN": 1,
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1": 0.8888888888888888,
+          "specificity": 1.0,
+          "false_positive_rate": 0.0,
+          "false_alarm_sequences": 0,
+          "false_positive_windows": 0,
+          "operational_false_events": 0,
+          "evaluated": 10,
+          "abstained": 0,
+          "errors": 0,
+          "unavailable": 0,
+          "coverage": 1.0
+        },
+        "cam1": {
+          "TP": 0,
+          "FP": 0,
+          "TN": 0,
+          "FN": 4,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "specificity": null,
+          "false_positive_rate": null,
+          "false_alarm_sequences": 0,
+          "false_positive_windows": 0,
+          "operational_false_events": 0,
+          "evaluated": 4,
+          "abstained": 1,
+          "errors": 0,
+          "unavailable": 0,
+          "coverage": 0.8
+        }
+      }
+    },
+    "raneem_stgcn_visibility": {
+      "overall": {
+        "TP": 8,
+        "FP": 0,
+        "TN": 5,
+        "FN": 2,
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1": 0.8888888888888888,
+        "specificity": 1.0,
+        "false_positive_rate": 0.0,
+        "false_alarm_sequences": 0,
+        "false_positive_windows": 0,
+        "operational_false_events": 0,
+        "evaluated": 15,
+        "abstained": 0,
+        "errors": 0,
+        "unavailable": 0,
+        "coverage": 1.0
+      },
+      "by_camera": {
+        "cam0": {
+          "TP": 5,
+          "FP": 0,
+          "TN": 5,
+          "FN": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "specificity": 1.0,
+          "false_positive_rate": 0.0,
+          "false_alarm_sequences": 0,
+          "false_positive_windows": 0,
+          "operational_false_events": 0,
+          "evaluated": 10,
+          "abstained": 0,
+          "errors": 0,
+          "unavailable": 0,
+          "coverage": 1.0
+        },
+        "cam1": {
+          "TP": 3,
+          "FP": 0,
+          "TN": 0,
+          "FN": 2,
+          "precision": 1.0,
+          "recall": 0.6,
+          "f1": 0.75,
+          "specificity": null,
+          "false_positive_rate": null,
+          "false_alarm_sequences": 0,
+          "false_positive_windows": 0,
+          "operational_false_events": 0,
+          "evaluated": 5,
+          "abstained": 0,
+          "errors": 0,
+          "unavailable": 0,
+          "coverage": 1.0
+        }
+      }
+    },
+    "raneem_stgcn_fullbody": {
+      "overall": {
+        "TP": 10,
+        "FP": 1,
+        "TN": 4,
+        "FN": 0,
+        "precision": 0.9090909090909091,
+        "recall": 1.0,
+        "f1": 0.9523809523809523,
+        "specificity": 0.8,
+        "false_positive_rate": 0.2,
+        "false_alarm_sequences": 1,
+        "false_positive_windows": 2,
+        "operational_false_events": 0,
+        "evaluated": 15,
+        "abstained": 0,
+        "errors": 0,
+        "unavailable": 0,
+        "coverage": 1.0
+      },
+      "by_camera": {
+        "cam0": {
+          "TP": 5,
+          "FP": 1,
+          "TN": 4,
+          "FN": 0,
+          "precision": 0.8333333333333334,
+          "recall": 1.0,
+          "f1": 0.9090909090909091,
+          "specificity": 0.8,
+          "false_positive_rate": 0.2,
+          "false_alarm_sequences": 1,
+          "false_positive_windows": 2,
+          "operational_false_events": 0,
+          "evaluated": 10,
+          "abstained": 0,
+          "errors": 0,
+          "unavailable": 0,
+          "coverage": 1.0
+        },
+        "cam1": {
+          "TP": 5,
+          "FP": 0,
+          "TN": 0,
+          "FN": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "specificity": null,
+          "false_positive_rate": null,
+          "false_alarm_sequences": 0,
+          "false_positive_windows": 0,
+          "operational_false_events": 0,
+          "evaluated": 5,
+          "abstained": 0,
+          "errors": 0,
+          "unavailable": 0,
+          "coverage": 1.0
+        }
+      }
+    },
+    "raneem_lstm": {
+      "overall": {
+        "TP": 7,
+        "FP": 1,
+        "TN": 4,
+        "FN": 3,
+        "precision": 0.875,
+        "recall": 0.7,
+        "f1": 0.7777777777777778,
+        "specificity": 0.8,
+        "false_positive_rate": 0.2,
+        "false_alarm_sequences": 1,
+        "false_positive_windows": 2,
+        "operational_false_events": 0,
+        "evaluated": 15,
+        "abstained": 0,
+        "errors": 0,
+        "unavailable": 0,
+        "coverage": 1.0
+      },
+      "by_camera": {
+        "cam0": {
+          "TP": 4,
+          "FP": 1,
+          "TN": 4,
+          "FN": 1,
+          "precision": 0.8,
+          "recall": 0.8,
+          "f1": 0.8,
+          "specificity": 0.8,
+          "false_positive_rate": 0.2,
+          "false_alarm_sequences": 1,
+          "false_positive_windows": 2,
+          "operational_false_events": 0,
+          "evaluated": 10,
+          "abstained": 0,
+          "errors": 0,
+          "unavailable": 0,
+          "coverage": 1.0
+        },
+        "cam1": {
+          "TP": 3,
+          "FP": 0,
+          "TN": 0,
+          "FN": 2,
+          "precision": 1.0,
+          "recall": 0.6,
+          "f1": 0.75,
+          "specificity": null,
+          "false_positive_rate": null,
+          "false_alarm_sequences": 0,
+          "false_positive_windows": 0,
+          "operational_false_events": 0,
+          "evaluated": 5,
+          "abstained": 0,
+          "errors": 0,
+          "unavailable": 0,
+          "coverage": 1.0
+        }
+      }
+    }
+  },
+  "disagreements": [
+    {
+      "reference": "souad_integrated",
+      "model": "raneem_stgcn_visibility",
+      "cases": [
+        {
+          "sequence": "fall-05-cam1-rgb",
+          "camera": "cam1",
+          "truth": "fall",
+          "reference_prediction": "non_fall",
+          "model_prediction": "fall"
+        },
+        {
+          "sequence": "fall-10-cam0-rgb",
+          "camera": "cam0",
+          "truth": "fall",
+          "reference_prediction": "non_fall",
+          "model_prediction": "fall"
+        },
+        {
+          "sequence": "fall-10-cam1-rgb",
+          "camera": "cam1",
+          "truth": "fall",
+          "reference_prediction": "non_fall",
+          "model_prediction": "fall"
+        }
+      ]
+    },
+    {
+      "reference": "souad_integrated",
+      "model": "raneem_stgcn_fullbody",
+      "cases": [
+        {
+          "sequence": "fall-05-cam1-rgb",
+          "camera": "cam1",
+          "truth": "fall",
+          "reference_prediction": "non_fall",
+          "model_prediction": "fall"
+        },
+        {
+          "sequence": "fall-06-cam1-rgb",
+          "camera": "cam1",
+          "truth": "fall",
+          "reference_prediction": "non_fall",
+          "model_prediction": "fall"
+        },
+        {
+          "sequence": "adl-20-cam0-rgb",
+          "camera": "cam0",
+          "truth": "non_fall",
+          "reference_prediction": "non_fall",
+          "model_prediction": "fall"
+        },
+        {
+          "sequence": "fall-10-cam0-rgb",
+          "camera": "cam0",
+          "truth": "fall",
+          "reference_prediction": "non_fall",
+          "model_prediction": "fall"
+        },
+        {
+          "sequence": "fall-10-cam1-rgb",
+          "camera": "cam1",
+          "truth": "fall",
+          "reference_prediction": "non_fall",
+          "model_prediction": "fall"
+        },
+        {
+          "sequence": "fall-16-cam1-rgb",
+          "camera": "cam1",
+          "truth": "fall",
+          "reference_prediction": "non_fall",
+          "model_prediction": "fall"
+        }
+      ]
+    },
+    {
+      "reference": "souad_integrated",
+      "model": "raneem_lstm",
+      "cases": [
+        {
+          "sequence": "adl-02-cam0-rgb",
+          "camera": "cam0",
+          "truth": "non_fall",
+          "reference_prediction": "non_fall",
+          "model_prediction": "fall"
+        },
+        {
+          "sequence": "fall-05-cam1-rgb",
+          "camera": "cam1",
+          "truth": "fall",
+          "reference_prediction": "non_fall",
+          "model_prediction": "fall"
+        },
+        {
+          "sequence": "fall-06-cam1-rgb",
+          "camera": "cam1",
+          "truth": "fall",
+          "reference_prediction": "non_fall",
+          "model_prediction": "fall"
+        },
+        {
+          "sequence": "fall-10-cam0-rgb",
+          "camera": "cam0",
+          "truth": "fall",
+          "reference_prediction": "non_fall",
+          "model_prediction": "fall"
+        },
+        {
+          "sequence": "fall-16-cam0-rgb",
+          "camera": "cam0",
+          "truth": "fall",
+          "reference_prediction": "fall",
+          "model_prediction": "non_fall"
+        }
+      ]
+    },
+    {
+      "reference": "souad_shared_clips",
+      "model": "raneem_stgcn_visibility",
+      "cases": [
+        {
+          "sequence": "fall-05-cam1-rgb",
+          "camera": "cam1",
+          "truth": "fall",
+          "reference_prediction": "non_fall",
+          "model_prediction": "fall"
+        },
+        {
+          "sequence": "fall-09-cam1-rgb",
+          "camera": "cam1",
+          "truth": "fall",
+          "reference_prediction": "non_fall",
+          "model_prediction": "fall"
+        },
+        {
+          "sequence": "fall-10-cam0-rgb",
+          "camera": "cam0",
+          "truth": "fall",
+          "reference_prediction": "non_fall",
+          "model_prediction": "fall"
+        },
+        {
+          "sequence": "fall-10-cam1-rgb",
+          "camera": "cam1",
+          "truth": "fall",
+          "reference_prediction": "non_fall",
+          "model_prediction": "fall"
+        }
+      ]
+    },
+    {
+      "reference": "souad_shared_clips",
+      "model": "raneem_stgcn_fullbody",
+      "cases": [
+        {
+          "sequence": "fall-05-cam1-rgb",
+          "camera": "cam1",
+          "truth": "fall",
+          "reference_prediction": "non_fall",
+          "model_prediction": "fall"
+        },
+        {
+          "sequence": "fall-06-cam1-rgb",
+          "camera": "cam1",
+          "truth": "fall",
+          "reference_prediction": "non_fall",
+          "model_prediction": "fall"
+        },
+        {
+          "sequence": "adl-20-cam0-rgb",
+          "camera": "cam0",
+          "truth": "non_fall",
+          "reference_prediction": "non_fall",
+          "model_prediction": "fall"
+        },
+        {
+          "sequence": "fall-09-cam1-rgb",
+          "camera": "cam1",
+          "truth": "fall",
+          "reference_prediction": "non_fall",
+          "model_prediction": "fall"
+        },
+        {
+          "sequence": "fall-10-cam0-rgb",
+          "camera": "cam0",
+          "truth": "fall",
+          "reference_prediction": "non_fall",
+          "model_prediction": "fall"
+        },
+        {
+          "sequence": "fall-10-cam1-rgb",
+          "camera": "cam1",
+          "truth": "fall",
+          "reference_prediction": "non_fall",
+          "model_prediction": "fall"
+        }
+      ]
+    },
+    {
+      "reference": "souad_shared_clips",
+      "model": "raneem_lstm",
+      "cases": [
+        {
+          "sequence": "adl-02-cam0-rgb",
+          "camera": "cam0",
+          "truth": "non_fall",
+          "reference_prediction": "non_fall",
+          "model_prediction": "fall"
+        },
+        {
+          "sequence": "fall-05-cam1-rgb",
+          "camera": "cam1",
+          "truth": "fall",
+          "reference_prediction": "non_fall",
+          "model_prediction": "fall"
+        },
+        {
+          "sequence": "fall-06-cam1-rgb",
+          "camera": "cam1",
+          "truth": "fall",
+          "reference_prediction": "non_fall",
+          "model_prediction": "fall"
+        },
+        {
+          "sequence": "fall-09-cam1-rgb",
+          "camera": "cam1",
+          "truth": "fall",
+          "reference_prediction": "non_fall",
+          "model_prediction": "fall"
+        },
+        {
+          "sequence": "fall-10-cam0-rgb",
+          "camera": "cam0",
+          "truth": "fall",
+          "reference_prediction": "non_fall",
+          "model_prediction": "fall"
+        },
+        {
+          "sequence": "fall-16-cam0-rgb",
+          "camera": "cam0",
+          "truth": "fall",
+          "reference_prediction": "fall",
+          "model_prediction": "non_fall"
+        }
+      ]
+    }
+  ],
+  "completed_sequences": 15
+}

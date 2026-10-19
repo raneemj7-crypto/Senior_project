@@ -1,0 +1,51 @@
+/Users/raneemjehad/Desktop/Senior_Project_Work/Integrated_Model2/.venv/lib/python3.14/site-packages/torch/jit/_serialization.py:170: FutureWarning: `torch.jit.load` is not supported in Python 3.14+ and may break. Please switch to `torch.export`.
+  warnings.warn(
+PROVISIONAL: 15/15 sequences; assumed source FPS=15.0
+[1/15] fall-05-cam0-rgb: 151 frames
+  prediction=fall events=1 max_P=0.9957 FPS=16.65 error=None
+[2/15] adl-02-cam0-rgb: 180 frames
+  prediction=non_fall events=0 max_P=0.003 FPS=18.15 error=None
+[3/15] fall-05-cam1-rgb: 151 frames
+  prediction=non_fall events=0 max_P=0.172 FPS=25.59 error=None
+[4/15] adl-05-cam0-rgb: 180 frames
+  prediction=non_fall events=0 max_P=0.0037 FPS=16.31 error=None
+[5/15] fall-06-cam0-rgb: 100 frames
+  prediction=fall events=1 max_P=0.9963 FPS=17.46 error=None
+[6/15] adl-17-cam0-rgb: 230 frames
+  prediction=non_fall events=0 max_P=0.0053 FPS=19.27 error=None
+[7/15] fall-06-cam1-rgb: 100 frames
+  prediction=non_fall events=0 max_P=0.0981 FPS=17.91 error=None
+[8/15] adl-20-cam0-rgb: 270 frames
+  prediction=non_fall events=0 max_P=0.0035 FPS=19.61 error=None
+[9/15] fall-09-cam0-rgb: 185 frames
+  prediction=non_fall events=0 max_P=0.0099 FPS=16.45 error=None
+[10/15] adl-25-cam0-rgb: 110 frames
+  prediction=non_fall events=0 max_P=0.0006 FPS=18.16 error=None
+[11/15] fall-09-cam1-rgb: 185 frames
+  prediction=fall events=1 max_P=0.7669 FPS=19.71 error=None
+[12/15] fall-10-cam0-rgb: 130 frames
+  prediction=non_fall events=0 max_P=0.0753 FPS=19.46 error=None
+[13/15] fall-10-cam1-rgb: 130 frames
+  prediction=non_fall events=0 max_P=0.2062 FPS=19.64 error=None
+[14/15] fall-16-cam0-rgb: 55 frames
+  prediction=fall events=1 max_P=0.9949 FPS=18.33 error=None
+[15/15] fall-16-cam1-rgb: 55 frames
+  prediction=non_fall events=0 max_P=0.0237 FPS=19.74 error=None
+{
+  "evaluated": 15,
+  "errors": 0,
+  "TP": 4,
+  "FP": 0,
+  "TN": 5,
+  "FN": 6,
+  "precision": 1.0,
+  "recall": 0.4,
+  "f1": 0.5714285714285714,
+  "specificity": 1.0,
+  "false_positive_rate": 0.0,
+  "false_alerts": 0,
+  "false_alerts_per_non_fall_video": 0.0,
+  "average_processing_fps": 18.828739830183967,
+  "median_processing_fps": 18.33129244954997
+}
+Reports: /Users/raneemjehad/Desktop/Senior_Project_Work/Integrated_Model2/evaluation/tracking_after

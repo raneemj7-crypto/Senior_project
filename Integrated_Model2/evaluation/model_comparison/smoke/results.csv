@@ -1,0 +1,11 @@
+model,available,status,prediction,max_fall_probability,total_windows,scored_windows,abstained_windows,positive_windows,fall_events,first_detection_seconds,error,disagreements,input_sha256,sequence,camera,truth,frames,processing_seconds
+souad_integrated,True,ok,fall,0.9957,,94,,,1,7.733,,[],,fall-05-cam0-rgb,cam0,fall,151,11.365649041952565
+souad_shared_clips,True,ok,fall,0.9983805418014526,13,13,0,2,,7.266666666666667,,[],4f3bccdd8445801c27e132e11073f691dc1061bfe50b70fdb1ace73e21a3a131,fall-05-cam0-rgb,cam0,fall,151,11.365649041952565
+raneem_stgcn_visibility,True,ok,fall,0.9999361038208008,13,13,0,4,,7.933333333333334,,[],4f3bccdd8445801c27e132e11073f691dc1061bfe50b70fdb1ace73e21a3a131,fall-05-cam0-rgb,cam0,fall,151,11.365649041952565
+raneem_stgcn_fullbody,True,ok,fall,0.9999998807907104,13,13,0,9,,4.6,,[],4f3bccdd8445801c27e132e11073f691dc1061bfe50b70fdb1ace73e21a3a131,fall-05-cam0-rgb,cam0,fall,151,11.365649041952565
+raneem_lstm,True,ok,fall,0.8827406167984009,13,13,0,3,,7.933333333333334,,[],4f3bccdd8445801c27e132e11073f691dc1061bfe50b70fdb1ace73e21a3a131,fall-05-cam0-rgb,cam0,fall,151,11.365649041952565
+souad_integrated,True,ok,non_fall,0.003,,107,,,0,,,"[""raneem_lstm""]",,adl-02-cam0-rgb,cam0,non_fall,180,12.466968833003193
+souad_shared_clips,True,ok,non_fall,0.0019237410742789507,16,13,3,0,,,,"[""raneem_lstm""]",70e60c474b00c7b51e18f2cdf86f33eb162c5107247f2466f70f64a20242f9bb,adl-02-cam0-rgb,cam0,non_fall,180,12.466968833003193
+raneem_stgcn_visibility,True,ok,non_fall,0.4258514642715454,16,14,2,0,,,,"[""raneem_lstm""]",70e60c474b00c7b51e18f2cdf86f33eb162c5107247f2466f70f64a20242f9bb,adl-02-cam0-rgb,cam0,non_fall,180,12.466968833003193
+raneem_stgcn_fullbody,True,ok,non_fall,0.2383122593164444,16,14,2,0,,,,"[""raneem_lstm""]",70e60c474b00c7b51e18f2cdf86f33eb162c5107247f2466f70f64a20242f9bb,adl-02-cam0-rgb,cam0,non_fall,180,12.466968833003193
+raneem_lstm,True,ok,fall,0.6036508679389954,16,14,2,2,,11.266666666666667,,"[""souad_integrated"", ""souad_shared_clips"", ""raneem_stgcn_visibility"", ""raneem_stgcn_fullbody""]",70e60c474b00c7b51e18f2cdf86f33eb162c5107247f2466f70f64a20242f9bb,adl-02-cam0-rgb,cam0,non_fall,180,12.466968833003193

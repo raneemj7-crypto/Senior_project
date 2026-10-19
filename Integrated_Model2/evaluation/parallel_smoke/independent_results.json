@@ -1,0 +1,130 @@
+[
+  {
+    "sequence_name": "fall-05-cam0-rgb",
+    "sequence_id": "fall/fall-05-cam0-rgb",
+    "camera": "cam0",
+    "ground_truth": "fall",
+    "number_of_frames": 151,
+    "processed_frames": 151,
+    "assumed_fps": 15.0,
+    "max_fall_probability": 0.9957,
+    "fall_events": 1,
+    "predicted_class": "fall",
+    "first_fall_timestamp": 7.733,
+    "ground_truth_onset": null,
+    "detection_latency": null,
+    "visibility_distribution": {
+      "full_body": 113,
+      "upper_body": 8,
+      "head_shoulders": 0,
+      "uncertain": 0
+    },
+    "dominant_visibility": "full_body",
+    "diagnostics": {
+      "track_appeared": 3,
+      "history_started": 1,
+      "person_not_confirmed": 4,
+      "missing_joint_observations": 82,
+      "insufficient_temporal_history": 23,
+      "ready": 48,
+      "prediction_cached": 46,
+      "tracking_interruption": 3,
+      "handover_candidate": 1,
+      "history_transferred": 1,
+      "pose_interruption": 1,
+      "large_confidence_change": 1
+    },
+    "frames_without_tracks": 30,
+    "track_id_transfers": 1,
+    "processing_fps": 17.367829856952532,
+    "processing_time": 8.694235333008692,
+    "error": null,
+    "annotated_video": null,
+    "model_results": {
+      "souad": {
+        "max_fall_probability": 0.9957,
+        "fall_events": 1,
+        "first_fall_timestamp": 7.733,
+        "predicted_class": "fall",
+        "prediction_frames": 94
+      },
+      "raneem_visibility": {
+        "max_fall_probability": 0.9986938834190369,
+        "fall_events": 2,
+        "first_fall_timestamp": 8.133333333333333,
+        "predicted_class": "fall",
+        "prediction_frames": 92
+      },
+      "raneem_fullbody": {
+        "max_fall_probability": 0.9999256134033203,
+        "fall_events": 6,
+        "first_fall_timestamp": 4.6,
+        "predicted_class": "fall",
+        "prediction_frames": 92
+      }
+    }
+  },
+  {
+    "sequence_name": "adl-02-cam0-rgb",
+    "sequence_id": "non_fall/adl-02-cam0-rgb",
+    "camera": "cam0",
+    "ground_truth": "non_fall",
+    "number_of_frames": 180,
+    "processed_frames": 180,
+    "assumed_fps": 15.0,
+    "max_fall_probability": 0.003,
+    "fall_events": 0,
+    "predicted_class": "non_fall",
+    "first_fall_timestamp": null,
+    "ground_truth_onset": null,
+    "detection_latency": null,
+    "visibility_distribution": {
+      "full_body": 134,
+      "upper_body": 0,
+      "head_shoulders": 0,
+      "uncertain": 0
+    },
+    "dominant_visibility": "full_body",
+    "diagnostics": {
+      "track_appeared": 7,
+      "history_started": 1,
+      "person_not_confirmed": 4,
+      "missing_joint_observations": 47,
+      "insufficient_temporal_history": 23,
+      "ready": 55,
+      "prediction_cached": 52,
+      "tracking_interruption": 6,
+      "pose_resumed": 2,
+      "pose_interruption": 2
+    },
+    "frames_without_tracks": 46,
+    "track_id_transfers": 0,
+    "processing_fps": 19.746863402449716,
+    "processing_time": 9.115371708991006,
+    "error": null,
+    "annotated_video": null,
+    "model_results": {
+      "souad": {
+        "max_fall_probability": 0.003,
+        "fall_events": 0,
+        "first_fall_timestamp": null,
+        "predicted_class": "non_fall",
+        "prediction_frames": 107
+      },
+      "raneem_visibility": {
+        "max_fall_probability": 0.9744908213615417,
+        "fall_events": 2,
+        "first_fall_timestamp": 10.4,
+        "predicted_class": "fall",
+        "prediction_frames": 105
+      },
+      "raneem_fullbody": {
+        "max_fall_probability": 0.9127338528633118,
+        "fall_events": 1,
+        "first_fall_timestamp": 11.666666666666666,
+        "predicted_class": "fall",
+        "prediction_frames": 105
+      }
+    }
+  }
+]
